@@ -1,0 +1,90 @@
+SPEC HEADER
+	ATTR NAMESPACE "http://gaius.isri.cmu.edu/example2.owl"
+	ATTR DESC "This policy is written to test the use limitation principle"
+	A Visitors > Members,Non-Members
+	A Third-Parties > Advertisers,LinkedIn-Affiliates,Service-Providers,Subscribers
+	A Anyone-In-LinkedIn > Visitors,Third-Parties
+	P Account > LinkedIn,Slideshare
+	P Development > Customization,Delivery,Promotion,Facilitation,Experience-Enhancing,Improvement,Search-Service
+	D Basic-Account-Information > Name,Email,Mobile-Number,Password
+	D Additional-Account-Information > Postal-Code,Job-title,Company,Descriptions-of-skills,Professional-experience,Educational-background,Other-Information
+	D Purchases-Information > Credit-Card
+	D Slideshare-Account > Name,Email,Mobile-Number,Password
+	D Email&Calendar > Email,Calendar-History
+	D Messages > Message-Content
+	D User-Activity > Information-Gathered
+	D Log-Data > IP-Address,Computer-Operating-System,Web-Browser-Type,Mobile-Device,Mobile-Operating-System,ISP
+	D User-Location > Location-Data
+	D Invitation-Information > Name,Email,Mobile-Number
+	D Address-Book > Phone-Numbers
+	D Testimonials-And-Advertisements > Name,Other-Personal-Information
+	D Communication-Messages > Name,Aggregate-Information
+	D Limited-Public-Profile > Name,Headline,Current-Company,Current-Title,Location
+	D Third-parties-Activity > Information-Loaded-In-Web-Browser
+	D Hyperlink-Information > URL
+	D User-Answers > Poll-Answers
+	D ALL-Information > Basic-Account-Information,Additional-Account-Information,Purchases-Information,Slideshare-Account,Email&Calendar,Messages,User-Activity,Log-Data,User-Location,Invitation-Information,Address-Book,Testimonials-And-Advertisements,Communication-Messages,Limited-Public-Profile,Third-parties-Activity,Hyperlink-Information,User-Answers
+SPEC POLICY
+	P COLLECT Basic-Account-Information FOR LinkedIn
+	P COLLECT Additional-Account-Information FOR LinkedIn
+	P COLLECT Purchases-Information FOR Financial
+	P COLLECT Slideshare-Account FOR Slideshare
+	P COLLECT Additional-Account-Information FOR LinkedIn
+	P COLLECT Email&Calendar FOR Content-Synchronization
+	P COLLECT Messages FOR Content-Synchronization
+	P COLLECT User-Activity FOR Customer-Support-Service,Security
+	P COLLECT Basic-Account-Information, Additional-Account-Information, Purchases-Information, Slideshare-Account, Email&Calendar, Messages, User-Activity, Log-Data, User-Location, Invitation-Information, Address-Book, Testimonials-And-Advertisements, Communication-Messages, Limited-Public-Profile, Third-parties-Activity, Hyperlink-Information, User-Answers FOR Anything
+	P COLLECT Messages, User-Activity, Log-Data, User-Location, Third-parties-Activity FOR Anything
+	P COLLECT Third-parties-Activity FOR Anything
+	P COLLECT Hyperlink-Information FOR Anything
+	P COLLECT Log-Data FOR Anything
+	P COLLECT User-Location FOR Customization
+	P COLLECT Basic-Account-Information, Additional-Account-Information, Purchases-Information, Slideshare-Account, Email&Calendar, Messages, User-Activity, Log-Data, User-Location, Invitation-Information, Address-Book, Testimonials-And-Advertisements, Communication-Messages, Limited-Public-Profile, Third-parties-Activity, Hyperlink-Information, User-Answers FOR Anything
+	P COLLECT Basic-Account-Information, Additional-Account-Information, Purchases-Information, Slideshare-Account, Email&Calendar, Messages, User-Activity, Log-Data, User-Location, Invitation-Information, Address-Book, Testimonials-And-Advertisements, Communication-Messages, Limited-Public-Profile, Third-parties-Activity, Hyperlink-Information, User-Answers FOR Anything
+	P COLLECT User-Location FOR Anything
+	P TRANSFER Hyperlink-Information TO Advertisers FOR Advertising
+	P TRANSFER Invitation-Information TO Visitors,Members,Non-Members FOR Connection
+	R TRANSFER Basic-Account-Information, Additional-Account-Information, Purchases-Information, Slideshare-Account, Email&Calendar, Invitation-Information, Address-Book, Testimonials-And-Advertisements, Communication-Messages, Limited-Public-Profile TO Third-Parties,Advertisers FOR Advertising
+	P TRANSFER Invitation-Information TO Visitors,Members,Non-Members FOR Connection
+	P TRANSFER Basic-Account-Information, Additional-Account-Information, Purchases-Information, Slideshare-Account, Email&Calendar, Invitation-Information, Address-Book, Testimonials-And-Advertisements, Communication-Messages, Limited-Public-Profile TO Third-Parties,LinkedIn-Affiliates FOR Delivery
+	P TRANSFER Basic-Account-Information, Additional-Account-Information, Purchases-Information, Slideshare-Account, Email&Calendar, Messages, User-Activity, Log-Data, User-Location, Invitation-Information, Address-Book, Testimonials-And-Advertisements, Communication-Messages, Limited-Public-Profile, Third-parties-Activity, Hyperlink-Information, User-Answers TO Third-Parties,LinkedIn-Services FOR Anything
+	P TRANSFER Basic-Account-Information, Additional-Account-Information, Purchases-Information, Slideshare-Account, Email&Calendar, Messages, User-Activity, Log-Data, User-Location, Invitation-Information, Address-Book, Testimonials-And-Advertisements, Communication-Messages, Limited-Public-Profile, Third-parties-Activity, Hyperlink-Information, User-Answers TO Third-Parties,LinkedIn-Affiliates,Service-Providers,LinkedIn-Services FOR Anything
+	P TRANSFER Testimonials-And-Advertisements TO Third-Parties FOR Promotion
+	P TRANSFER Basic-Account-Information, Additional-Account-Information, Purchases-Information, Slideshare-Account, Email&Calendar, Invitation-Information, Address-Book, Testimonials-And-Advertisements, Communication-Messages, Limited-Public-Profile TO Third-Parties FOR Anything
+	P TRANSFER Invitation-Information TO Non-Members,LinkedIn-Services FOR Communication
+	P TRANSFER Communication-Messages TO Visitors,Members,Non-Members FOR Anything
+	R TRANSFER Basic-Account-Information, Additional-Account-Information, Purchases-Information, Slideshare-Account, Email&Calendar, Invitation-Information, Address-Book, Testimonials-And-Advertisements, Communication-Messages, Limited-Public-Profile TO Anyone-In-LinkedIn FOR Anything
+	R TRANSFER Basic-Account-Information, Additional-Account-Information, Purchases-Information, Slideshare-Account, Email&Calendar, Invitation-Information, Address-Book, Testimonials-And-Advertisements, Communication-Messages, Limited-Public-Profile TO Anyone-In-LinkedIn FOR Anything
+	R TRANSFER Basic-Account-Information, Additional-Account-Information, Purchases-Information, Slideshare-Account, Email&Calendar, Invitation-Information, Address-Book, Testimonials-And-Advertisements, Communication-Messages, Limited-Public-Profile TO Anyone-In-LinkedIn FOR Anything
+	R TRANSFER Basic-Account-Information, Additional-Account-Information, Purchases-Information, Slideshare-Account, Email&Calendar, Invitation-Information, Address-Book, Testimonials-And-Advertisements, Communication-Messages, Limited-Public-Profile TO Anyone-In-LinkedIn FOR Anything
+	R TRANSFER Basic-Account-Information, Additional-Account-Information, Purchases-Information, Slideshare-Account, Email&Calendar, Invitation-Information, Address-Book, Testimonials-And-Advertisements, Communication-Messages, Limited-Public-Profile TO Anyone-In-LinkedIn FOR Anything
+	R TRANSFER Basic-Account-Information, Additional-Account-Information, Purchases-Information, Slideshare-Account, Email&Calendar, Invitation-Information, Address-Book, Testimonials-And-Advertisements, Communication-Messages, Limited-Public-Profile TO Anyone-In-LinkedIn FOR Anything
+	R TRANSFER Basic-Account-Information, Additional-Account-Information, Purchases-Information, Slideshare-Account, Email&Calendar, Invitation-Information, Address-Book, Testimonials-And-Advertisements, Communication-Messages, Limited-Public-Profile TO Anyone-In-LinkedIn FOR Anything
+	R TRANSFER Basic-Account-Information, Additional-Account-Information, Purchases-Information, Slideshare-Account, Email&Calendar, Invitation-Information, Address-Book, Testimonials-And-Advertisements, Communication-Messages, Limited-Public-Profile TO Anyone-In-LinkedIn FOR Anything
+	R TRANSFER Basic-Account-Information, Additional-Account-Information, Purchases-Information, Slideshare-Account, Email&Calendar, Invitation-Information, Address-Book, Testimonials-And-Advertisements, Communication-Messages, Limited-Public-Profile TO Anyone-In-LinkedIn FOR Anything
+	P TRANSFER Basic-Account-Information, Additional-Account-Information, Purchases-Information, Slideshare-Account, Email&Calendar, User-Activity, Invitation-Information, Address-Book, Testimonials-And-Advertisements, Communication-Messages, Limited-Public-Profile FOR Legal
+	P TRANSFER Basic-Account-Information, Additional-Account-Information, Purchases-Information, Slideshare-Account, Email&Calendar, Messages, User-Activity, Log-Data, User-Location, Invitation-Information, Address-Book, Testimonials-And-Advertisements, Communication-Messages, Limited-Public-Profile, Third-parties-Activity, Hyperlink-Information, User-Answers TO Third-Parties FOR Facilitation
+	P TRANSFER User-Activity TO Members,Third-Parties,Advertisers FOR Anything
+	P TRANSFER Additional-Account-Information TO Third-Parties FOR Anything
+	P TRANSFER Basic-Account-Information, Additional-Account-Information, Purchases-Information, Slideshare-Account, Email&Calendar, Invitation-Information, Address-Book, Testimonials-And-Advertisements, Communication-Messages, Limited-Public-Profile TO Third-Parties FOR Content-Distribution
+	P TRANSFER Limited-Public-Profile TO Subscribers FOR Candidate-Sourcing
+	P TRANSFER Additional-Account-Information, Limited-Public-Profile FOR Anything
+	P USE Basic-Account-Information, Additional-Account-Information, Purchases-Information, Slideshare-Account, Email&Calendar, Messages, User-Activity, Log-Data, User-Location, Invitation-Information, Address-Book, Testimonials-And-Advertisements, Communication-Messages, Limited-Public-Profile, Third-parties-Activity, Hyperlink-Information, User-Answers FOR Anything
+	P USE Basic-Account-Information, Additional-Account-Information, Purchases-Information, Slideshare-Account, Email&Calendar, Messages, User-Activity, Log-Data, User-Location, Invitation-Information, Address-Book, Testimonials-And-Advertisements, Communication-Messages, Limited-Public-Profile, Third-parties-Activity, Hyperlink-Information, User-Answers FOR Anything
+	P USE Basic-Account-Information, Additional-Account-Information, Purchases-Information, Slideshare-Account, Email&Calendar, Invitation-Information, Address-Book, Testimonials-And-Advertisements, Communication-Messages, Limited-Public-Profile FOR Delivery
+	P USE Basic-Account-Information, Additional-Account-Information, Purchases-Information, Slideshare-Account, Email&Calendar, Invitation-Information, Address-Book, Testimonials-And-Advertisements, Communication-Messages, Limited-Public-Profile FOR Legal
+	P USE Basic-Account-Information, Additional-Account-Information, Purchases-Information, Slideshare-Account, Email&Calendar, Messages, User-Activity, Log-Data, User-Location, Invitation-Information, Address-Book, Testimonials-And-Advertisements, Communication-Messages, Limited-Public-Profile, Third-parties-Activity, Hyperlink-Information, User-Answers FOR Reporting-And-Analysis
+	P USE Third-parties-Activity, Hyperlink-Information FOR Anything
+	P USE Address-Book FOR Anything
+	P USE Address-Book FOR User-Contacts-Management
+	P USE Address-Book FOR Experience-Enhancing
+	P USE Address-Book FOR Experience-Enhancing
+	P USE User-Activity FOR Customization
+	P USE User-Activity FOR Advertising
+	P USE Third-parties-Activity, Hyperlink-Information FOR Customization
+	P USE Third-parties-Activity, Hyperlink-Information FOR Customization
+	P USE Basic-Account-Information, Additional-Account-Information, Purchases-Information, Slideshare-Account, Email&Calendar, Messages, User-Activity, Log-Data, User-Location, Invitation-Information, Address-Book, Testimonials-And-Advertisements, Communication-Messages, Limited-Public-Profile, Third-parties-Activity, Hyperlink-Information, User-Answers FOR Improvement
+	P USE Basic-Account-Information, Additional-Account-Information, Purchases-Information, Slideshare-Account, Email&Calendar, User-Activity, Invitation-Information, Address-Book, Testimonials-And-Advertisements, Communication-Messages, Limited-Public-Profile FOR Search-Service
+	P USE User-Answers FOR Advertising
+	P USE Basic-Account-Information, Additional-Account-Information, Purchases-Information, Slideshare-Account, Email&Calendar, Invitation-Information, Address-Book, Testimonials-And-Advertisements, Communication-Messages, Limited-Public-Profile FOR Delivery-of-Incentives
+	P USE Additional-Account-Information FOR Advertising

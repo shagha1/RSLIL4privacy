@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/org.xtext.rslilconvertors.rslil4privacy/src-gen"
+    editDirectory="/org.xtext.rslilconvertors.rslil4privacy.edit/src" editorDirectory="/org.xtext.rslilconvertors.rslil4privacy.editor/src"
+    modelPluginID="org.xtext.rslilconvertors.rslil4privacy" forceOverwrite="true"
+    modelName="Rslil4privacy" updateClasspath="false" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    complianceLevel="5.0" copyrightFields="false" editPluginID="org.xtext.rslilconvertors.rslil4privacy.edit"
+    editorPluginID="org.xtext.rslilconvertors.rslil4privacy.editor" runtimeVersion="2.10">
+  <genPackages prefix="Rslil4privacy" basePackage="org.xtext.rslilconvertors.rslil4privacy"
+      disposableProviderFactory="true" fileExtensions="rslil4privacy" ecorePackage="Rslil4privacy.ecore#/">
+    <genClasses ecoreClass="Rslil4privacy.ecore#//Policy">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Rslil4privacy.ecore#//Policy/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Rslil4privacy.ecore#//Policy/importelements"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Rslil4privacy.ecore#//Policy/collection"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Rslil4privacy.ecore#//Policy/disclosure"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Rslil4privacy.ecore#//Policy/retention"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Rslil4privacy.ecore#//Policy/usage"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Rslil4privacy.ecore#//Policy/informative"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Rslil4privacy.ecore#//Policy/privateData"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Rslil4privacy.ecore#//Policy/recipient"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Rslil4privacy.ecore#//Policy/service"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Rslil4privacy.ecore#//Policy/enforcement"/>
+    </genClasses>
+    <genClasses ecoreClass="Rslil4privacy.ecore#//Import">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Rslil4privacy.ecore#//Import/importedNamespace"/>
+    </genClasses>
+    <genClasses ecoreClass="Rslil4privacy.ecore#//Enforcement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Rslil4privacy.ecore#//Enforcement/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Rslil4privacy.ecore#//Enforcement/enforcementName"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Rslil4privacy.ecore#//Enforcement/enforcementDescription"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Rslil4privacy.ecore#//Enforcement/enforcementKind"/>
+    </genClasses>
+    <genClasses ecoreClass="Rslil4privacy.ecore#//Service">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Rslil4privacy.ecore#//Service/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Rslil4privacy.ecore#//Service/servicename"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Rslil4privacy.ecore#//Service/description"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Rslil4privacy.ecore#//Service/reftoPrivateData"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Rslil4privacy.ecore#//Service/refertoservice"/>
+    </genClasses>
+    <genClasses ecoreClass="Rslil4privacy.ecore#//Recipient">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Rslil4privacy.ecore#//Recipient/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Rslil4privacy.ecore#//Recipient/recipientname"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Rslil4privacy.ecore#//Recipient/recipientDescription"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Rslil4privacy.ecore#//Recipient/partof"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Rslil4privacy.ecore#//Recipient/recipientScope"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Rslil4privacy.ecore#//Recipient/recipientType"/>
+    </genClasses>
+    <genClasses ecoreClass="Rslil4privacy.ecore#//PrivateData">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Rslil4privacy.ecore#//PrivateData/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Rslil4privacy.ecore#//PrivateData/privatedata"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Rslil4privacy.ecore#//PrivateData/PrivateDataKind"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Rslil4privacy.ecore#//PrivateData/attribute"/>
+    </genClasses>
+    <genClasses ecoreClass="Rslil4privacy.ecore#//Attribute">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Rslil4privacy.ecore#//Attribute/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Rslil4privacy.ecore#//Attribute/attributeName"/>
+    </genClasses>
+    <genClasses ecoreClass="Rslil4privacy.ecore#//Collection">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Rslil4privacy.ecore#//Collection/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Rslil4privacy.ecore#//Collection/collectiondescription"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Rslil4privacy.ecore#//Collection/collectioncondition"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Rslil4privacy.ecore#//Collection/reftoPrivateData"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Rslil4privacy.ecore#//Collection/refertoservice"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Rslil4privacy.ecore#//Collection/refertoEnforcement"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Rslil4privacy.ecore#//Collection/modalitykind"/>
+    </genClasses>
+    <genClasses ecoreClass="Rslil4privacy.ecore#//Disclosure">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Rslil4privacy.ecore#//Disclosure/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Rslil4privacy.ecore#//Disclosure/didescription"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Rslil4privacy.ecore#//Disclosure/discondition"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Rslil4privacy.ecore#//Disclosure/referToRecipient"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Rslil4privacy.ecore#//Disclosure/referToRecipientsource"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Rslil4privacy.ecore#//Disclosure/referToRecipienttarget"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Rslil4privacy.ecore#//Disclosure/reftoPrivateData"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Rslil4privacy.ecore#//Disclosure/refertoservice"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Rslil4privacy.ecore#//Disclosure/refertoEnforcement"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Rslil4privacy.ecore#//Disclosure/modalitykind"/>
+    </genClasses>
+    <genClasses ecoreClass="Rslil4privacy.ecore#//Retention">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Rslil4privacy.ecore#//Retention/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Rslil4privacy.ecore#//Retention/retentiondescription"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Rslil4privacy.ecore#//Retention/retentioncondition"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Rslil4privacy.ecore#//Retention/period"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Rslil4privacy.ecore#//Retention/reftoPrivateData"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Rslil4privacy.ecore#//Retention/refertoservice"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Rslil4privacy.ecore#//Retention/refertoEnforcement"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Rslil4privacy.ecore#//Retention/modalitykind"/>
+    </genClasses>
+    <genClasses ecoreClass="Rslil4privacy.ecore#//Usage">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Rslil4privacy.ecore#//Usage/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Rslil4privacy.ecore#//Usage/usagedescription"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Rslil4privacy.ecore#//Usage/usagecondition"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Rslil4privacy.ecore#//Usage/reftoPrivateData"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Rslil4privacy.ecore#//Usage/refertoservice"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Rslil4privacy.ecore#//Usage/refertoEnforcement"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Rslil4privacy.ecore#//Usage/modalitykind"/>
+    </genClasses>
+    <genClasses ecoreClass="Rslil4privacy.ecore#//Informative">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Rslil4privacy.ecore#//Informative/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Rslil4privacy.ecore#//Informative/infdescription"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Rslil4privacy.ecore#//Informative/infcondition"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Rslil4privacy.ecore#//Informative/reftoPrivateData"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Rslil4privacy.ecore#//Informative/refertoservice"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Rslil4privacy.ecore#//Informative/refertoEnforcement"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Rslil4privacy.ecore#//Informative/modalitykind"/>
+    </genClasses>
+    <genClasses ecoreClass="Rslil4privacy.ecore#//Partof">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Rslil4privacy.ecore#//Partof/partof"/>
+    </genClasses>
+    <genClasses ecoreClass="Rslil4privacy.ecore#//ReferToRecipient">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Rslil4privacy.ecore#//ReferToRecipient/refertore"/>
+    </genClasses>
+    <genClasses ecoreClass="Rslil4privacy.ecore#//ReferToRecipientSource">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Rslil4privacy.ecore#//ReferToRecipientSource/refertore"/>
+    </genClasses>
+    <genClasses ecoreClass="Rslil4privacy.ecore#//ReferToRecipientTarget">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Rslil4privacy.ecore#//ReferToRecipientTarget/refertore"/>
+    </genClasses>
+    <genClasses ecoreClass="Rslil4privacy.ecore#//ReferToService">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Rslil4privacy.ecore#//ReferToService/refertose"/>
+    </genClasses>
+    <genClasses ecoreClass="Rslil4privacy.ecore#//ReftoPrivateData">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Rslil4privacy.ecore#//ReftoPrivateData/refpr"/>
+    </genClasses>
+    <genClasses ecoreClass="Rslil4privacy.ecore#//RefertoEnforcement">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Rslil4privacy.ecore#//RefertoEnforcement/refen"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

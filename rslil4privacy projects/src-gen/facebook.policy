@@ -1,0 +1,110 @@
+SPEC HEADER
+	ATTR NAMESPACE "http://gaius.isri.cmu.edu/example2.owl"
+	ATTR DESC "This policy is written to test the use limitation principle"
+	A Facebook-Owner > Facebook-Family
+	A Business-Partner > Advertising,Vendors
+	A Third-parties > Advertising,Vendors
+	A Members > Firends
+	A Visitors > Members
+	P Security-Service > Handle-Illegal-Activities,Protection,Prevention-of-Harm,Account-Verification
+	P Legal-Service > Requests,Investigations
+	P Communication-Service > Marketing-Communications,General-Communication,Policy-Terms-News
+	P Development-Service > Delivery-of-Services,Content-Personalization,Suggestions-and-Shortcuts,Customization-of-Services,General-Improvement-and-Evaluation,General-Development,Audits-and-Troubleshooting,Advertising-Improvement
+	D Account-Information > First-Name,Surname,Email,Mobile-Number,Password,Date-Of-Birth,Gender
+	D Payment-Information > Credit,Other-Card-Information,Account-Information,Billing
+	D Friends-and-Contacts-Information > Name,Email,Other-Contact-Information
+	D Public-Activity-or-Profile-Information > Posts,Photos,Status-Updates,Public-Profile
+	D Device-Specifications-Information > Operating-System,Hardware-Version,Device-Settings,Software-Names-And-Types,Battery-And-Signal-Strength,Device-Identifiers
+	D Device-Locations-Information > Geographic-Locations
+	D Connection-Information > ISP,Browser-Type,Language-And-TimeZone,Mobile-Phone-Number,IP-Address
+	D Third-parties-Activity-Information > Third-party-Information
+	D ALL-Information > Account-Information,Payment-Information,Friends-and-Contacts-Information,Public-Activity-or-Profile-Information,Device-Specifications-Information,Device-Locations-Information,Connection-Information,Third-parties-Activity-Information
+SPEC POLICY
+	P COLLECT Account-Information FOR Account-Service
+	P COLLECT Public-Activity-or-Profile-Information FOR Account-Service
+	P COLLECT Public-Activity-or-Profile-Information FOR Account-Service
+	P COLLECT Friends-and-Contacts-Information FOR Account-Service
+	P COLLECT Friends-and-Contacts-Information FOR Anything
+	P COLLECT Payment-Information FOR Financial-Service
+	P COLLECT Device-Specifications-Information, Device-Locations-Information, Connection-Information FOR Account-Service
+	P COLLECT Device-Specifications-Information FOR Account-Service
+	P COLLECT Device-Locations-Information FOR Account-Service
+	P COLLECT Connection-Information FOR Account-Service
+	P COLLECT Third-parties-Activity-Information FOR Account-Service
+	P COLLECT Third-parties-Activity-Information FOR Anything
+	P COLLECT Account-Information FOR Anything
+	P COLLECT Public-Activity-or-Profile-Information FOR Account-Service
+	P COLLECT Account-Information FOR Account-Service
+	P COLLECT Public-Activity-or-Profile-Information FOR Anything
+	P TRANSFER ALL-Information TO Facebook-Family FOR Anything
+	P TRANSFER ALL-Information TO Facebook-Owner FOR Anything
+	R TRANSFER Account-Information, Payment-Information TO Business-Partner,Advertising,Third-parties FOR Anything
+	P TRANSFER Public-Activity-or-Profile-Information TO Business-Partner,Advertising,Third-parties,Advertising FOR Advertising-Service
+	P TRANSFER ALL-Information TO Firends,Business-Partner,Vendors,Third-parties,Advertising,Vendors FOR Anything
+	P TRANSFER ALL-Information TO Facebook-Family,Third-parties FOR Anything
+	P TRANSFER Public-Activity-or-Profile-Information TO Firends FOR Anything
+	P TRANSFER Public-Activity-or-Profile-Information TO Members FOR Anything
+	P TRANSFER ALL-Information TO Visitors FOR Anything
+	P TRANSFER ALL-Information FOR Requests
+	P TRANSFER ALL-Information FOR Handle-Illegal-Activities
+	P TRANSFER ALL-Information FOR Protection,Investigations
+	P TRANSFER ALL-Information FOR Prevention-of-Harm
+	P TRANSFER ALL-Information FOR Handle-Illegal-Activities
+	P USE ALL-Information FOR Anything
+	P USE ALL-Information FOR Anything
+	P USE ALL-Information FOR Requests
+	P USE ALL-Information FOR Handle-Illegal-Activities
+	P USE ALL-Information FOR Protection,Investigations
+	P USE ALL-Information FOR Prevention-of-Harm
+	P USE ALL-Information FOR Requests
+	P USE ALL-Information FOR Investigations
+	P USE ALL-Information FOR Investigations
+	P USE ALL-Information FOR Prevention-of-Harm
+	P USE ALL-Information FOR Handle-Illegal-Activities
+	P USE Public-Activity-or-Profile-Information FOR Anything
+	P USE ALL-Information FOR Requests
+	P USE ALL-Information FOR Handle-Illegal-Activities
+	P USE ALL-Information FOR Protection,Investigations
+	P USE ALL-Information FOR Prevention-of-Harm
+	P USE ALL-Information FOR Requests
+	P USE ALL-Information FOR Investigations
+	P USE ALL-Information FOR Handle-Illegal-Activities
+	P USE ALL-Information FOR Prevention-of-Harm
+	P USE Device-Specifications-Information, Device-Locations-Information, Connection-Information FOR Anything
+	P USE Public-Activity-or-Profile-Information FOR Delivery-of-Services
+	P USE Public-Activity-or-Profile-Information FOR Content-Personalization
+	P USE Public-Activity-or-Profile-Information FOR Suggestions-and-Shortcuts
+	P USE ALL-Information FOR Suggestions-and-Shortcuts
+	P USE Device-Locations-Information FOR Customization-of-Services
+	P USE ALL-Information FOR General-Improvement-and-Evaluation
+	P USE ALL-Information FOR General-Development
+	P USE ALL-Information FOR Audits-and-Troubleshooting
+	P USE ALL-Information FOR Marketing-Communications
+	P USE ALL-Information FOR General-Communication
+	P USE ALL-Information FOR Anything
+	P USE ALL-Information FOR Policy-Terms-News
+	P USE ALL-Information FOR Advertising-Improvement
+	P USE ALL-Information FOR Advertising-Improvement
+	P USE ALL-Information FOR Account-Verification
+	P USE ALL-Information FOR Protection
+	P INFORM FOR Anything
+	O INFORM FOR Anything
+	P INFORM FOR Requests
+	P INFORM FOR General-Improvement-and-Evaluation,General-Development,Audits-and-Troubleshooting
+	P INFORM FOR General-Development
+	P INFORM FOR Audits-and-Troubleshooting
+	P INFORM FOR General-Improvement-and-Evaluation
+	P INFORM FOR General-Development
+	P INFORM FOR Audits-and-Troubleshooting
+	P INFORM FOR Anything
+	P INFORM FOR Protection
+	P INFORM FOR Anything
+	P INFORM FOR Anything
+	P INFORM FOR Anything
+	P INFORM FOR Anything
+	P INFORM FOR Anything
+	P INFORM FOR Anything
+	P INFORM FOR Anything
+	P INFORM FOR Anything
+	P INFORM FOR Anything
+	P INFORM FOR Anything

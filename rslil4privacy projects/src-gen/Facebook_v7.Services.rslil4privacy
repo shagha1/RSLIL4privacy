@@ -1,0 +1,144 @@
+Package Facebook_v7.Services.RSLingo4Privacy {
+
+import Facebook_v7.Privatedata.RSLingo4Privacy.*
+
+Service S1 {
+	Name "Account",
+	Description "manage account",
+	RefersTo PrivateData PD1-PD4-PD5-PD6-PD7,
+};
+
+Service S2 {
+	Name "Financial",
+	Description "purchases, financial transactions",
+	RefersTo PrivateData PD1-PD2,
+};
+
+Service S3 {
+	Name "Advertising",
+	Description "reach and effectiveness of advertising",
+	RefersTo PrivateData PD8,
+};
+
+Service S4 {
+	Name "Security",
+	Description "",
+};
+
+Service S5 {
+	Name "Handle Illegal Activities",
+	Description "detect, prevent and address fraud and other illegal activity",
+	Service_Part S4,
+};
+
+Service S6 {
+	Name "Protection",
+	Description "protect ourselves, you and others",
+	Service_Part S4,
+};
+
+Service S7 {
+	Name "Prevention of Harm",
+	Description "prevent death or imminent bodily harm",
+	Service_Part S4,
+};
+
+Service S8 {
+	Name "Account Verification",
+	Description "help verify accounts and activity",
+	Service_Part S4,
+};
+
+Service S9 {
+	Name "Legal",
+	Description "",
+};
+
+Service S10 {
+	Name "Requests",
+	Description "response to legal request",
+	Service_Part S9,
+};
+
+Service S11 {
+	Name "Investigations",
+	Description "investigations",
+	Service_Part S9,
+};
+
+Service S12 {
+	Name "Communication",
+	Description "",
+};
+
+Service S13 {
+	Name "Marketing Communications",
+	Description "marketing communications",
+	Service_Part S12,
+};
+
+Service S14 {
+	Name "General Communication",
+	Description "user-service provider communication",
+	Service_Part S12,
+};
+
+Service S15 {
+	Name "Policy/Terms News",
+	Description "policy and terms news",
+	Service_Part S12,
+};
+
+Service S16 {
+	Name "Development",
+	Description "",
+};
+
+Service S17 {
+	Name "Delivery of Services",
+	Description "deliver services",
+	Service_Part S16,
+};
+
+Service S18 {
+	Name "Content Personalization",
+	Description "personalize content",
+	Service_Part S16,
+};
+
+Service S19 {
+	Name "Suggestions and Shortcuts",
+	Description "make suggestions, provide shortcuts",
+	Service_Part S16,
+};
+
+Service S20 {
+	Name "Customization of Services",
+	Description "tailor services",
+	Service_Part S16,
+};
+
+Service S21 {
+	Name "General Improvement and Evaluation",
+	Description "evaluate and improve services",
+	Service_Part S16,
+};
+
+Service S22 {
+	Name "General Development",
+	Description "develop products and features",
+	Service_Part S16,
+};
+
+Service S23 {
+	Name "Audits and Troubleshooting",
+	Description "conduct audits, troubleshooting activities",
+	Service_Part S16,
+};
+
+Service S24 {
+	Name "Advertising Improvement",
+	Description "relevant ads,  effectiveness and reach of ads and services",
+	Service_Part S16,
+};
+};

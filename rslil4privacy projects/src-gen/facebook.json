@@ -1,0 +1,1205 @@
+{
+	"name": "Facebook.rslil4privacy",
+	"Collections": [
+    	{
+    		"ID": "st1",
+    		"Description": "We collect the content and other information you provide when you use our Services, 
+    			including when you sign up for an account, create or share, and message or communicate with others. 
+    			This can include the location of a photo or the date a file was created.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1"],
+    		"Services": ["S1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st2",
+    		"Description": "We also collect information about how you use our Services, such as the types of 
+    			content you view or engage with or the frequency and duration of your activities.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD4"],
+    		"Services": ["S1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st3",
+    		"Description": "We also collect content and information that other people provide when they use our 
+    			Services, including information about you, such as when they share a photo of you, send a message
+    			 to you, or upload, sync or import your contact information.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD4"],
+    		"Services": ["S1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st4",
+    		"Description": "We collect information about the people and groups you are connected to and how you 
+    			interact with them, such as the people you communicate with the most or the groups you like to 
+    			share with.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD3"],
+    		"Services": ["S1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st5",
+    		"Description": "We also collect contact information you provide if you upload, sync or import this 
+    			information (such as an address book) from a device.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD3"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st6",
+    		"Description": "If you use our Services for purchases or financial transactions, we collect information 
+    			about the purchase or transaction. This includes your payment information, such as your credit or 
+    			debit card number and other card information, and other account and authentication information, as 
+    			well as billing, shipping and contact details.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD2"],
+    		"Services": ["S2"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st7",
+    		"Description": "We collect information from or about the computers, phones, or other devices where
+    			 you install or access our Services, depending on the Permitteds you’ve granted.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)+ grant extra Permitted",
+    		"PrivateDatums": ["PD5","PD6","PD7"],
+    		"Services": ["S1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st8",
+    		"Description": "We collect attributes such as the operating system, hardware version, device settings, 
+    			file and software names and types, battery and signal strength, and device identifiers.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD5"],
+    		"Services": ["S1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st9",
+    		"Description": "We collect device locations, including specific geographic locations, such as 
+    			through GPS, Bluetooth, or WiFi signals.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD6"],
+    		"Services": ["S1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st10",
+    		"Description": "We collect connection information such as the name of your mobile operator or ISP, 
+    			browser type, language and time zone, mobile phone number and IP address.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD7"],
+    		"Services": ["S1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st11",
+    		"Description": "We collect information when you visit or use third-party websites and apps that 
+    			use our Services. This includes information about the websites and apps you visit, your use 
+    			of our Services on those websites and apps, as well as information the developer or publisher 
+    			of the app or website provides to you or us.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD8"],
+    		"Services": ["S1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st12",
+    		"Description": "We receive information about you and your activities on and off Facebook from 
+    			third-party partners, such as information from a partner when we jointly offer services or from 
+    			an advertiser about your experiences or interactions with them.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD8"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st13",
+    		"Description": "We receive information about you from companies that are owned or operated by 
+    			Facebook, in accordance with their terms and policies.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st14",
+    		"Description": "When you use third-party apps, websites or other services that use, or are 
+    			integrated with, our Services, they may receive information about what you post or share.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD4"],
+    		"Services": ["S1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st15",
+    		"Description": "In addition, when you download or use such third-party services, they can 
+    			access your Public Profile, which includes your username or user ID, your age range and 
+    			country/language, your list of friends, as well as any information that you share with them. ",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1"],
+    		"Services": ["S1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st16",
+    		"Description": "When you delete your account, we delete things you have posted, such as your photos 
+    			and status updates.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD4"],
+    		"Enforcements": ["En4"],
+    		"Type": "Prohibition"
+    	}
+    ],
+    "Disclosure": [
+    	{
+    		"ID": "st17",
+    		"Description": "We share information we have about you within the family of companies that are part 
+    			of Facebook.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st18",
+    		"Description": "If the ownership or control of all or part of our Services or their assets changes, 
+    			we may transfer your information to the new owner.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st19",
+    		"Description": "We do not share information that personally identifies you (personally identifiable 
+    			information is information like name or email address that can by itself be used to contact you 
+    			or identifies who you are) with advertising, measurement or analytics partners unless you give us 
+    			Permitted.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)+ grant extra Permitted",
+    		"PrivateDatums": ["PD1","PD2"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st20",
+    		"Description": "We may provide advertising, measurement or analytics partners with information about 
+    			the reach and effectiveness of their advertising without providing information that personally 
+    			identifies you, or if we have aggregated the information so that it does not personally identify you.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD4"],
+    		"Services": ["S3"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st21",
+    		"Description": "We transfer information to vendors, service providers, and other partners who globally 
+    			support our business. These partners must adhere to strict confidentiality obligations in a way that 
+    			is consistent with this Data Policy and the agreements we enter into with them.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st22",
+    		"Description": "Facebook may share information internally within our family of companies or with 
+    			third parties for purposes described in this policy.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st23",
+    		"Description": "In some cases, people you share and communicate with may download or re-share 
+    			this content with others on and off our Services.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD4"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st24",
+    		"Description": "Other people may use our Services to share content about you with the audience they choose.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD4"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st25",
+    		"Description": "Public information (any information you share with a public audience, as well as information 
+    			in your Public Profile) is available to anyone on or off our Services and can be seen through online search 
+    			engines, APIs, and offline media, such as on TV.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st26",
+    		"Description": "We may share your information in response to a legal request (like a search warrant, court order 
+    			or subpoena) if we have a good faith belief that the law requires us to do so.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Services": ["S5_1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st27",
+    		"Description": "We may also share information when we have a good faith belief it is necessary to detect, 
+    			prevent and address fraud and other illegal activity.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Services": ["S4_1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st28",
+    		"Description": "We may also share information when we have a good faith belief it is necessary to protect 
+    			ourselves, you and others, including as part of investigations.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Services": ["S4_2","S5_2"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st29",
+    		"Description": "We may also share information when we have a good faith belief it is necessary to prevent 
+    			death or imminent bodily harm.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Services": ["S4_3"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st30",
+    		"Description": "We may provide information to third-party partners about the reliability of your account 
+    			to prevent fraud and abuse on and off of our Services.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Services": ["S4_1"],
+    		"Type": "Prohibition"
+    	}
+    ],
+    "Usage": [
+    	{
+    		"ID": "st31",
+    		"Description": "We store data for as long as it is necessary to provide products and services to you and others.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st32",
+    		"Description": "Information associated with your account will be kept until your account is deleted, unless 
+    			we no longer need the data to provide products and services.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st33",
+    		"Description": "We may preserve your information in response to a legal request (like a search warrant, 
+    			court order or subpoena) if we have a good faith belief that the law requires us to do so.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Services": ["S5_1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st34",
+    		"Description": "We may also preserve information when we have a good faith belief it is necessary to detect, 
+    			prevent and address fraud and other illegal activity.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Services": ["S4_1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st35",
+    		"Description": "We may also preserve information when we have a good faith belief it is necessary to 
+    			protect ourselves, you and others, including as part of investigations.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Services": ["S4_2","S5_2"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st36",
+    		"Description": "We may also preserve information when we have a good faith belief it is necessary
+    			 to prevent death or imminent bodily harm.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Services": ["S4_3"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st37",
+    		"Description": "Information we receive about you, including financial transaction data related 
+    			to purchases made with Facebook, may be retained for an extended period of time when it is 
+    			the subject of a legal request or obligation.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Services": ["S5_1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st38",
+    		"Description": "Information we receive about you, including financial transaction data related 
+    			to purchases made with Facebook, may be retained for an extended period of time when it is 
+    			the subject of a legal governmental investigation.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Services": ["S5_2"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st39",
+    		"Description": "Information we receive about you, including financial transaction data related 
+    			to purchases made with Facebook, may be retained for an extended period of time when it is 
+    			the subject of investigations concerning possible violations of our terms or policies.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Services": ["S5_2"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st40",
+    		"Description": "Information we receive about you, including financial transaction data related 
+    			to purchases made with Facebook, may be retained for an extended period of time to prevent harm.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Services": ["S4_3"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st41",
+    		"Description": "We also may retain information from accounts disabled for violations of our terms 
+    			for at least a year to prevent repeat abuse or other violations of our terms.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Services": ["S4_1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st42",
+    		"Description": "Public information (any information you share with a public audience, as well as 
+    			information in your Public Profile) is available to anyone on or off our Services and can be accessed
+    			through online search engines, APIs, and offline media, such as on TV.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD4"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st43",
+    		"Description": "We may access your information in response to a legal request (like a search warrant, 
+    			court order or subpoena) if we have a good faith belief that the law requires us to do so.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Services": ["S5_1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st44",
+    		"Description": "We may also access information when we have a good faith belief it is necessary to detect, 
+    			prevent and address fraud and other illegal activity.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Services": ["S4_1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st45",
+    		"Description": "We may also access information when we have a good faith belief it is necessary to protect 
+    			ourselves, you and others, including as part of investigations.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Services": ["S4_2","S5_2"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st46",
+    		"Description": "We may also access information when we have a good faith belief it is necessary to prevent 
+    			death or imminent bodily harm.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Services": ["S4_3"],
+    		"Enforcements": ["En1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st47",
+    		"Description": "Information we receive about you, including financial transaction data related to purchases 
+    			made with Facebook, may be accessed and processed for an extended period of time when it is the subject 
+    			of a legal request or obligation.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Services": ["S5_1"],
+    		"Enforcements": ["En2"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st48",
+    		"Description": "Information we receive about you, including financial transaction data related to purchases 
+    			made with Facebook, may be accessed and processed for an extended period of time when it is the subject 
+    			of a legal governmental investigation.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Services": ["S5_2"],
+    		"Enforcements": ["En5"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st49",
+    		"Description": "Information we receive about you, including financial transaction data related to purchases 
+    			made with Facebook, may be accessed and processed for an extended period of time when it is the subject 
+    			of investigations concerning possible violations of our terms or policies.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Services": ["S4_1"],
+    		"Enforcements": ["En3"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st50",
+    		"Description": "Information we receive about you, including financial transaction data related to purchases 
+    			made with Facebook, may be accessed and processed for an extended period of time to prevent harm.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Services": ["S4_3"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st51",
+    		"Description": "We may associate the information we collect from your different devices, which helps us 
+    			provide consistent Services across your devices.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD5","PD6","PD7"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st52",
+    		"Description": "We are able to deliver our Services for you by using all of the information we have 
+    			to understand how you use and interact with our Services and the people or things you’re connected 
+    			to and interested in on and off our Services.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD4"],
+    		"Services": ["S7_1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st53",
+    		"Description": "We are able to personalize content for you by using all of the information we have 
+    			to understand how you use and interact with our Services and the people or things you’re connected 
+    			to and interested in on and off our Services.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD4"],
+    		"Services": ["S7_2"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st54",
+    		"Description": "We are able to make suggestions for you by using all of the information we have to 
+    			understand how you use and interact with our Services and the people or things you’re connected 
+    			to and interested in on and off our Services.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD4"],
+    		"Services": ["S7_3"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st55",
+    		"Description": "We also use information we have to provide shortcuts and suggestions to you.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Services": ["S7_3"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st56",
+    		"Description": "When we have location information, we use it to tailor our Services for you and others.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD6"],
+    		"Services": ["S7_4"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st57",
+    		"Description": "We analyze the information we have to evaluate and improve products and services.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Services": ["S7_5"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st58",
+    		"Description": "We analyze the information we have to develop new products or features.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Services": ["S7_6"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st59",
+    		"Description": "We analyze the information we have to conduct audits and troubleshooting activities.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Services": ["S7_7"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st60",
+    		"Description": "We use your information to send you marketing communications.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Services": ["S6_1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st61",
+    		"Description": "We use your information to communicate with you about our Services.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Services": ["S6_2"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st62",
+    		"Description": "We use your information to let you know about our policies and terms.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st63",
+    		"Description": "We also use your information to respond to you when you contact us.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Services": ["S6_3"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st64",
+    		"Description": "We use the information we have to improve our advertising and measurement systems 
+    			so we can show you relevant ads on and off our Services.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Services": ["S7_8"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st65",
+    		"Description": "We use the information we have to improve our advertising and measurement systems 
+    			so we can measure the effectiveness and reach of ads and services.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Services": ["S7_8"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st66",
+    		"Description": "We use the information we have to help verify accounts and activity.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Services": ["S4_4"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st67",
+    		"Description": "We use the information we have to promote safety and security on and off of our Services, 
+    			such as by investigating suspicious activity or violations of our terms or policies.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Services": ["S4_2"],
+    		"Type": "Prohibition"
+    	}
+    ],
+    "Informative": [
+    	{
+    		"ID": "st68",
+    		"Description": "You can delete your account any time.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st69",
+    		"Description": "Vendors, service providers, and other partners who globally support our business 
+    			must adhere to strict confidentiality obligations in a way that is consistent with this Data 
+    			Policy and the agreements we enter into with them.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"Type": "Obligation"
+    	},
+    	{
+    		"ID": "st70",
+    		"Description": "Law requirements may include responding to legal requests from jurisdictions 
+    			outside of the United States where we have a good faith belief that the response is required 
+    			by law in that jurisdiction, affects users in that jurisdiction, and is consistent with 
+    			internationally recognized standards.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"Services": ["S5_1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st71",
+    		"Description": "We conduct surveys and research to evaluate and improve products and services, 
+    			develop new products or features, and conduct audits and troubleshooting activities.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"Services": ["S7_5","S7_6","S7_7"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st72",
+    		"Description": "We conduct surveys and research to develop new products or features.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"Services": ["S7_6"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st73",
+    		"Description": "We conduct surveys and research to conduct audits and troubleshooting activities.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"Services": ["S7_7"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st74",
+    		"Description": "We test features in development to evaluate and improve products and services.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"Services": ["S7_5"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st75",
+    		"Description": "We test features in development to develop new products or features.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"Services": ["S7_6"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st76",
+    		"Description": "We test features in development to conduct audits and troubleshooting activities.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"Services": ["S7_7"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st77",
+    		"Description": "Information collected by third-parties (apps, websites or integrated services) 
+    			is subject to their own terms and policies.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st78",
+    		"Description": "We also offer easy-to-use security tools that add an extra layer of security to 
+    			your account.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"Services": ["S4_2"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st79",
+    		"Description": "We use cookies and similar technologies to provide and support our Services and 
+    			each of the uses outlined.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st80",
+    		"Description": "When you share and communicate using our Services, you choose the audience who can 
+    			see what you share.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD4"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st81",
+    		"Description": "We work with third party companies who help us provide and improve our Services or 
+    			who use advertising or related products, which makes it possible to operate our companies and 
+    			provide free services to people around the world.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st82",
+    		"Description": "We want our advertising to be as relevant and interesting as the other information 
+    			you find on our Services.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st83",
+    		"Description": "You can manage the content and information you share when you use Facebook through 
+    			the Activity Log tool.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1","PD4"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st84",
+    		"Description": "You can also download information associated with your Facebook account through our 
+    			Download Your Information tool.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"PrivateDatums": ["PD1","PD4"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st85",
+    		"Description": "If you want to temporarily stop using Facebook, you may deactivate your account.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st86",
+    		"Description": "We’ll notify you before we make changes to this policy and give you the opportunity 
+    			to review and comment on the revised policy before continuing to use our Services.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st87",
+    		"Description": "Facebook, Inc. complies with the US-EU and US-Swiss Safe Harbor framework for the 
+    			collection, use and retention of information from the European Union and Switzerland, as set out by 
+    			the Department of Commerce.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st88",
+    		"Description": "We will resolve disputes you have with us in connection with our policies and 
+    			practices through TRUSTe.",
+    		"Condition": "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+    		"Type": "Prohibition"
+    	}
+    ],
+     "PrivateDatums": [
+    	{
+    		"ID": "PD1",
+    		"Description": "Account-Information",
+    		"Type": "PersonalInformation",
+    		"Attributes": [
+    			{
+    				"name": "First-Name",
+    				"Description": "first name"
+    			},
+    			{
+    				"name": "Surname",
+    				"Description": "surname"
+    			},
+    			{
+    				"name": "Email",
+    				"Description": "email"
+    			},
+    			{
+    				"name": "Mobile-Number",
+    				"Description": "mobile number"
+    			},
+    			{
+    				"name": "Password",
+    				"Description": "password"
+    			},
+    			{
+    				"name": "Date-Of-Birth",
+    				"Description": "date of birth"
+    			},
+    			{
+    				"name": "Gender",
+    				"Description": "gender"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "PD2",
+    		"Description": "Payment-Information",
+    		"Type": "PersonalInformation",
+    		"Attributes": [
+    			{
+    				"name": "Credit",
+    				"Description": "credit or debit card number"
+    			},
+    			{
+    				"name": "Other-Card-Information",
+    				"Description": "other card information"
+    			},
+    			{
+    				"name": "Account-Information",
+    				"Description": "account and authentication information"
+    			},
+    			{
+    				"name": "Billing",
+    				"Description": "billing, shipping and contact detailsn"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "PD3",
+    		"Description": "Friends-and-Contacts-Information",
+    		"Type": "PersonalInformation",
+    		"Attributes": [
+    			{
+    				"name": "Name",
+    				"Description": "name"
+    			},
+    			{
+    				"name": "Email",
+    				"Description": "email"
+    			},
+    			{
+    				"name": "Other-Contact-Information",
+    				"Description": "other contact information"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "PD4",
+    		"Description": "Public-Activity-or-Profile-Information",
+    		"Type": "UsageInformation",
+    		"Attributes": [
+    			{
+    				"name": "Posts",
+    				"Description": "posts"
+    			},
+    			{
+    				"name": "Photos",
+    				"Description": "photos"
+    			},
+    			{
+    				"name": "Status-Updates",
+    				"Description": "status updates"
+    			},
+    			{
+    				"name": "Public-Profile",
+    				"Description": "public profile"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "PD5",
+    		"Description": "Device-Specifications-Information",
+    		"Type": "UsageInformation",
+    		"Attributes": [
+    			{
+    				"name": "Operating-System",
+    				"Description": "operating system"
+    			},
+    			{
+    				"name": "Hardware-Version",
+    				"Description": "hardware version"
+    			},
+    			{
+    				"name": "Device-Settings",
+    				"Description": "device settings"
+    			},
+    			{
+    				"name": "Software-Names-And-Types",
+    				"Description": "file and software names and types"
+    			},
+    			{
+    				"name": "Battery-And-Signal-Strength",
+    				"Description": "battery and signal strength"
+    			},
+    			{
+    				"name": "Device-Identifiers",
+    				"Description": "device identifiers"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "PD6",
+    		"Description": "Device-Locations-Information",
+    		"Type": "UsageInformation",
+    		"Attributes": [
+    			{
+    				"name": "Geographic-Locations",
+    				"Description": "specific geographic locations (through GPS, Bluetooth, or WiFi signals)"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "PD7",
+    		"Description": "Connection-Information",
+    		"Type": "UsageInformation",
+    		"Attributes": [
+    			{
+    				"name": "ISP",
+    				"Description": "name of your mobile operator or ISP"
+    			},
+    			{
+    				"name": "Browser-Type",
+    				"Description": "browser type"
+    			},
+    			{
+    				"name": "Language-And-TimeZone",
+    				"Description": "language and time zone"
+    			},
+    			{
+    				"name": "Mobile-Phone-Number",
+    				"Description": "mobile phone number"
+    			},
+    			{
+    				"name": "IP-Address",
+    				"Description": "IP address"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "PD8",
+    		"Description": "Third-parties-Activity-Information",
+    		"Type": "UsageInformation",
+    		"Attributes": [
+    			{
+    				"name": "Third-party-Information",
+    				"Description": "Information gathered while visiting third-party websites and apps"
+    			}
+    		]
+    	}
+    ],
+     "Recipients": [
+    	{
+    		"ID": "R1",
+    		"Name": "Facebook-Owner",
+    		"Description": "Facebook services owner",
+    		"Recipient_Parts": ["Facebook-Family"],
+    		"Type": "Organization",
+    		"Scope": "Internal"
+    		
+    	},
+    	{
+    		"ID": "R1_1",
+    		"Name": "Facebook-Family",
+    		"Description": "Facebook family companies",
+    		"Type": "Organization",
+    		"Scope": "Internal"
+    		
+    	},
+    	{
+    		"ID": "R2",
+    		"Name": "Business-Partner",
+    		"Description": "Business Supportner Partner",
+    		"Recipient_Parts": ["Advertising","Vendors"],
+    		"Type": "Organization",
+    		"Scope": "External"
+    		
+    	},
+    	{
+    		"ID": "R2_1",
+    		"Name": "Advertising",
+    		"Description": "Advertising, measurement or analytics partners",
+    		"Type": "Organization",
+    		"Scope": "External"
+    		
+    	},
+    	{
+    		"ID": "R2_2",
+    		"Name": "Vendors",
+    		"Description": "Vendors, service providers",
+    		"Type": "Organization",
+    		"Scope": "External"
+    		
+    	},
+    	{
+    		"ID": "R3",
+    		"Name": "Third-parties",
+    		"Description": "Third parties",
+    		"Recipient_Parts": ["Advertising","Vendors"],
+    		"Type": "Organization",
+    		"Scope": "External"
+    		
+    	},
+    	{
+    		"ID": "R3_1",
+    		"Name": "Advertising",
+    		"Description": "Advertising, measurement or analytics partners",
+    		"Type": "Organization",
+    		"Scope": "External"
+    		
+    	},
+    	{
+    		"ID": "R3_2",
+    		"Name": "Vendors",
+    		"Description": "Vendors, service providers",
+    		"Type": "Organization",
+    		"Scope": "External"
+    		
+    	},
+    	{
+    		"ID": "R4",
+    		"Name": "Firends",
+    		"Description": "People you share and communicate with",
+    		"Type": "Individual",
+    		"Scope": "Internal"
+    		
+    	},
+    	{
+    		"ID": "R5",
+    		"Name": "Members",
+    		"Description": "People on Facebook Services",
+    		"Recipient_Parts": ["Firends"],
+    		"Type": "Individual",
+    		"Scope": "Internal"
+    		
+    	},
+    	{
+    		"ID": "R6",
+    		"Name": "Visitors",
+    		"Description": "People on and off Facebook Services",
+    		"Recipient_Parts": ["Members"],
+    		"Type": "Individual",
+    		"Scope": "Internal/External"
+    		
+    	}
+    ],
+    "Services": [
+    	{
+    		"ID": "S1",
+    		"Description": "Account Service",
+    		"PrivateDatums": ["PD1","PD4","PD5","PD6","PD7"],
+    	},
+    	{
+    		"ID": "S2",
+    		"Description": "Financial Service",
+    		"PrivateDatums": ["PD1","PD2"],
+    	},
+    	{
+    		"ID": "S3",
+    		"Description": "Advertising Service",
+    		"PrivateDatums": ["PD8"],
+    	},
+    	{
+    		"ID": "S4",
+    		"Description": "Security Service",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Service_Parts": ["S4_1","S4_2","S4_3","S4_4"]
+    	},
+    	{
+    		"ID": "S4_1",
+    		"Description": "Handle Illegal Activities",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    	},
+    	{
+    		"ID": "S4_2",
+    		"Description": "Protection",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    	},
+    	{
+    		"ID": "S4_3",
+    		"Description": "Prevention of Harm",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    	},
+    	{
+    		"ID": "S4_4",
+    		"Description": "Account Verification",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    	},
+    	{
+    		"ID": "S5",
+    		"Description": "Legal Service",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Service_Parts": ["S5_1","S5_2"]
+    	},
+    	{
+    		"ID": "S5_1",
+    		"Description": "Requests",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    	},
+    	{
+    		"ID": "S5_2",
+    		"Description": "Investigations",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    	},
+    	{
+    		"ID": "S6",
+    		"Description": "Communication-Service",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Service_Parts": ["S6_1","S6_2","S6_3"]
+    	},
+    	{
+    		"ID": "S6_1",
+    		"Description": "Marketing-Communications",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    	},
+    	{
+    		"ID": "S6_2",
+    		"Description": "General-Communication",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    	},
+    	{
+    		"ID": "S6_3",
+    		"Description": "Policy-Terms-News",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    	},
+    	{
+    		"ID": "S7",
+    		"Description": "Development-Service",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    		"Service_Parts": ["S7_1","S7_2","S7_3","S7_4","S7_5","S7_6","S7_7","S7_8"]
+    	},
+    	{
+    		"ID": "S7_1",
+    		"Description": "Delivery-of-Services",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    	},
+    	{
+    		"ID": "S7_2",
+    		"Description": "Content-Personalization",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    	},
+    	{
+    		"ID": "S7_3",
+    		"Description": "Suggestions-and-Shortcuts",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    	},
+    	{
+    		"ID": "S7_4",
+    		"Description": "Customization-of-Services",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    	},
+    	{
+    		"ID": "S7_5",
+    		"Description": "General-Improvement-and-Evaluation",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    	},
+    	{
+    		"ID": "S7_6",
+    		"Description": "General-Development",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    	},
+    	{
+    		"ID": "S7_7",
+    		"Description": "Audits-and-Troubleshooting",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    	},
+    	{
+    		"ID": "S7_8",
+    		"Description": "Advertising-Improvement",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8"],
+    	}
+    ],
+    "Enforcements": [
+    	{
+    		"ID": "En1",
+    		"Name": "Activity-Log-tool",
+    		"Description": "Users are able to manage the content and information shared when using Facebook",
+    		"Type": "Tool"
+    	},
+    	{
+    		"ID": "En2",
+    		"Name": "Download-Your-Information-tool",
+    		"Description": "Users are able to download information associated with their Facebook account",
+    		"Type": "Tool"
+    	},
+    	{
+    		"ID": "En3",
+    		"Name": "Policy-changes-notification",
+    		"Description": "Users are notified regarding changes to the privacy policy",
+    		"Type": "Action"
+    	},
+    	{
+    		"ID": "En4",
+    		"Name": "Account-Deletion",
+    		"Description": "Delete all content associated with user's Facebook account",
+    		"Type": "Action"
+    	},
+    	{
+    		"ID": "En5",
+    		"Name": "Account-Deactivation",
+    		"Description": "Deactivate user's Facebook account",
+    		"Type": "Action"
+    	}
+    ]
+}

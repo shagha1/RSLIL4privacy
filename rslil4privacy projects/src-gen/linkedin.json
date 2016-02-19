@@ -1,0 +1,1196 @@
+{
+	"name": "LinkedIn.rslil4privacy",
+	"Collections": [
+    	{
+    		"ID": "st1",
+    		"Description": "To create an account on LinkedIn, you must provide us with at 
+    			least your name, email address and/or mobile number, and a password and agree 
+    			to our User Agreement and this Privacy Policy",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD1"],
+    		"Services": ["S1_1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st2",
+    		"Description": "You may provide additional information during the registration flow 
+    			(for example, your postal code, job title, and company) to help you build your profile 
+    			and to provide you more customized services (for example: language-specific profile 
+    			pages, updates, content, more relevant ads and career opportunities)",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD2"],
+    		"Services": ["S1_1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st3",
+    		"Description": "We may also ask for your credit card details if you purchase certain additional services",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD3"],
+    		"Services": ["S2"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st4",
+    		"Description": "We also provide the option to register for a SlideShare account, for which you must provide 
+    			at least your name, email address and/or mobile number, and a password",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD4"],
+    		"Services": ["S1_2"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st5",
+    		"Description": "After you create an account (other than the distinct SlideShare 
+    			and Pulse accounts), you may choose to provide additional information on your 
+    			LinkedIn profile, such as descriptions of your skills, professional experience, 
+    			and educational background",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD2"],
+    		"Services": ["S1_1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st6",
+    		"Description": "If you grant these products (mobile applications or our other Services 
+    			that sync external email and calendar services, such as “LinkedIn Connected”) Permitted 
+    			to access your email and calendar accounts, they will access and may store some of 
+    			your email header and calendar history information",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy+ grant extra Permitted",
+    		"PrivateDatums": ["PD5"],
+    		"Services": ["S3"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st7",
+    		"Description": "Our products that sync with external email services may also temporarily cache message 
+    			content for performance reasons, in a way that is unreadable by us and our service providers",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD6"],
+    		"Services": ["S3"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st8",
+    		"Description": "When you contact our customer support services (e.g. on our Help Center and SlideShare’s 
+    			Help Center), we may have to access your InMails, Groups and other contributions to our Services and 
+    			collect the information we need to categorize your question, respond to it, and, if applicable, 
+    			investigate any breach of our User Agreement or this Privacy Policy",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD7"],
+    		"Services": ["S4","S14"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st9",
+    		"Description": "We collect information when you use (whether as a Member or a Visitor) our websites, 
+    			applications, our platform technology (such as “Share on LinkedIn” plugins for publishers) or other Services",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8","PD9","PD10","PD11","PD12","PD13","PD14","PD15","PD16","PD17"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st10",
+    		"Description": "If you are logged in on LinkedIn.com or one of our cookies on your device identifies you, 
+    			your usage information and the log data such as your IP address, will be associated by us with your account. 
+    			Even if you’re not logged into a Service, we log information about devices used to access our Services, 
+    			including IP address",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD6","PD7","PD8","PD9","PD15"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st11",
+    		"Description": "When you visit a third-party site that embeds our social plugins 
+    			(such as “Share on LinkedIn” for publishers) we receive information that those 
+    			pages have loaded in your web browser",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD15"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st12",
+    		"Description": "When you visit or leave our Services (whether as a Member or Visitor) 
+    			by clicking a hyperlink or when you view a third-party site that includes our plugin 
+    			or cookies (or similar technology), we automatically receive the URL of the site from 
+    			which you came or the one to which you are directed",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD16"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st14",
+    		"Description": "We also receive the internet protocol (“IP”) address of your computer or 
+    			the proxy server that you use to access the web, your computer operating system details, 
+    			your type of web browser, your mobile device (including your mobile device identifier 
+    			provided by your mobile device operating system), your mobile operating system (if you 
+    			are accessing LinkedIn using a mobile device), and the name of your ISP or your mobile carrier",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD8"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st15",
+    		"Description": "We may also receive location data passed to us from third-party services 
+    			or GPS-enabled devices that you have set up, which we use to show you local information 
+    			(for example, Pulse articles about your area or jobs postings in your location) on our 
+    			mobile applications and for fraud prevention and security purposes",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD9"],
+    		"Services": ["S6_1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st16",
+    		"Description": "You allow us to receive information when you use your account to log in 
+    			to a third-party website or application.",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8","PD9","PD10","PD11","PD12","PD13","PD14","PD15","PD16","PD17"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st17",
+    		"Description": "You also allow us to receive information about your visits and interaction 
+    			with the sites and services of our partners that include our cookies and similar technologies, 
+    			unless you opt out",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8","PD9","PD10","PD11","PD12","PD13","PD14","PD15","PD16","PD17"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st18",
+    		"Description": "In the case of our Android apps, you will be provided notice of the types of 
+    			data (e.g. location) that will be sent to us. If you choose not to become a Member, we 
+    			will delete this information",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD9"],
+    		"Type": "Prohibition"
+    	}
+    ],
+    "Disclosure": [
+    	{
+    		"ID": "st13",
+    		"Description": "Advertisers receive the URL of the page that you are on when you click 
+    			an ad on or through our Services",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD16"],
+    		"Services": ["S5"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st19",
+    		"Description": "Please note that when you send an invitation to connect to another individual 
+    			on our Service (a “connection”) or to join our Service to connect with you, that person may 
+    			have access to your email address or, for SMS invitations, mobile number because it may be 
+    			displayed in the invitation",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD10"],
+    		"Services": ["S7"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st20",
+    		"Description": "We do not share your personal information with any third-party advertisers or 
+    			ad networks for advertising without your separate Permitted",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy + grant extra Permitted",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD10","PD11","PD12","PD13","PD14"],
+    		"Services": ["S5"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st21",
+    		"Description": "Once you have connected with an individual, regardless of who sent the invitation, 
+    			your contact information will be shared with that individual",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD10"],
+    		"Services": ["S7"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st22",
+    		"Description": "We may share your personal information with our affiliates outside of the LinkedIn 
+    			entity that is your data controller as reasonably necessary to provide the Services. You are 
+    			consenting to this sharing",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD10","PD11","PD12","PD13","PD14"],
+    		"Services": ["S6_2"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st23",
+    		"Description": "We combine information internally across different Services",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8","PD9","PD10","PD11","PD12","PD13","PD14","PD15","PD16","PD17"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st24",
+    		"Description": "We may transfer your information and process it outside your 
+    			country of residence, wherever LinkedIn, its affiliates and service providers operate",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8","PD9","PD10","PD11","PD12","PD13","PD14","PD15","PD16","PD17"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st25",
+    		"Description": "If you provide any testimonials about our goods or services or place 
+    			advertisements through the LinkedIn Ads, we may post those testimonials and examples 
+    			of advertisements you place in connection with our promotion of these services to 
+    			third parties. Testimonials and advertisements may include your name and other 
+    			personal information that you have provided",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD12"],
+    		"Services": ["S6_3"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st26",
+    		"Description": "We may also disclose your personal information to a third party as part 
+    			of a sale of the assets of LinkedIn Corporation, a subsidiary, or division, or as 
+    			the result of a change in control of the company or one of its affiliates, or in 
+    			preparation for any of these events",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD10","PD11","PD12","PD13","PD14"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st28",
+    		"Description": "Many communications that you initiate through our Services 
+    			(for example, an invitation sent to a non-Member) will list your name and 
+    			primary email address in the header of the message",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD10"],
+    		"Services": ["S8"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st29",
+    		"Description": "Messages you initiate may also provide the recipient with aggregate 
+    			information about your network (for example, how many people are in your network). 
+    			Other communications that you initiate through the Services, like a request for an 
+    			introduction, will list your name as the initiator but will not include your personal 
+    			email address contact information",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD13"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st30",
+    		"Description": "We do not rent or sell personal information that you have not 
+    			posted on our Services, except as described in this Privacy Policy",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD10","PD11","PD12","PD13","PD14"],
+    		"Enforcements": ["En1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st31",
+    		"Description": "We will not disclose personal information that is not published 
+    			to your profile or generated through engagement with our other services, 
+    			such as Groups and Company Pages, except to carry out your instructions 
+    			(for example, to process payment information)",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD10","PD11","PD12","PD13","PD14"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st32",
+    		"Description": "We will not disclose personal information that is not published 
+    			to your profile or generated through engagement with our other services, 
+    			such as Groups and Company Pages, unless we have your separate consent",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD10","PD11","PD12","PD13","PD14"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st33",
+    		"Description": "We will not disclose personal information that is not published to 
+    			your profile or generated through engagement with our other services, such as Groups 
+    			and Company Pages, unless we have a good faith belief that disclosure is permitted by law",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD10","PD11","PD12","PD13","PD14"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st34",
+    		"Description": "We will not disclose personal information that is not published to your profile 
+    			or generated through engagement with our other services, such as Groups and Company Pages, unless 
+    			is reasonably necessary to comply with a legal requirement or process, including, but not limited to, 
+    			civil and criminal subpoenas, court orders or other compulsory disclosures",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD10","PD11","PD12","PD13","PD14"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st35",
+    		"Description": "We will not disclose personal information that is not published to your profile or 
+    			generated through engagement with our other services, such as Groups and Company Pages, 
+    			unless is reasonably necessary to enforce this Privacy Policy or our User Agreement",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD10","PD11","PD12","PD13","PD14"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st36",
+    		"Description": "We will not disclose personal information that is not published to your 
+    			profile or generated through engagement with our other services, such as Groups and 
+    			Company Pages, unless to respond to claims of a violation of the rights of third parties",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD10","PD11","PD12","PD13","PD14"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st37",
+    		"Description": "We will not disclose personal information that is not published to your 
+    			profile or generated through engagement with our other services, such as Groups and 
+    			Company Pages, unless to respond to Member service inquiries",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD10","PD11","PD12","PD13","PD14"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st38",
+    		"Description": "We will not disclose personal information that is not published 
+    			to your profile or generated through engagement with our other services, such 
+    			as Groups and Company Pages, unless to protect the rights, property, or safety 
+    			of LinkedIn, our Services, our Members, Visitors, or the public",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD10","PD11","PD12","PD13","PD14"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st39",
+    		"Description": "It is possible that we may need to disclose personal information, 
+    			profile information, or information about your activities as a Member or Visitor 
+    			when required by law, subpoena, or other legal process",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD7","PD10","PD11","PD12","PD13","PD14"],
+    		"Services": ["S9"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st40",
+    		"Description": "We may employ third party companies and individuals to facilitate 
+    			our Services (e.g. maintenance, analysis, audit, marketing and development). 
+    			These third parties have limited access to your information only to perform 
+    			these tasks on our behalf and are obligated to LinkedIn not to disclose or use it for other purposes",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8","PD9","PD10","PD11","PD12","PD13","PD14","PD15","PD16","PD17"],
+    		"Services": ["S6_4"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st41",
+    		"Description": "If you participate in Groups, share content on your network update stream, 
+    			or import a blog or other content, you should be aware that any information you choose 
+    			to disclose using these services can be read, collected, and used by other Members in 
+    			these forums, developers, and other third parties, including advertisers",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD7"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st42",
+    		"Description": "Third-party search engines may not automatically update their caches, 
+    			which may contain old public profile information",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD2"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st43",
+    		"Description": "Content distributed through our sharing features and third-party 
+    			integrations may result in displaying some of your personal information outside of our Services",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD10","PD11","PD12","PD13","PD14"],
+    		"Services": ["S10"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st44",
+    		"Description": "We offer customized people-search functionality along with organizational 
+    			and communications tools (including activity alerts) as part of our talent recruiting, 
+    			marketing and sales solutions. These services allow subscribers - generally, enterprises 
+    			and professional organizations - to export limited information from Members’ public profiles, 
+    			such as name, headline, current company, current title, and location 
+    			(for example, San Francisco Bay Area), in order to effectively manage candidate sourcing",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD14"],
+    		"Services": ["S11"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st45",
+    		"Description": "Certain pages on the Services are public (e.g., company and college pages), 
+    			and any communications or information shared through them will be accessible by the 
+    			entity that created them. If you follow a person or organization, you will be listed 
+    			among its followers, which can be viewed by others including the page owner",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD2","PD14"],
+    		"Type": "Prohibition"
+    	}
+    ],
+    "Usage": [
+    	{
+    		"ID": "st46",
+    		"Description": "If you close your account(s), your information will generally be removed 
+    			from the Service within 24 hours",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8","PD9","PD10","PD11","PD12","PD13","PD14","PD15","PD16","PD17"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st47",
+    		"Description": "We generally delete closed account information and will de-personalize 
+    			any logs or other backup information through the deletion process within 30 days of account closure",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8","PD9","PD10","PD11","PD12","PD13","PD14","PD15","PD16","PD17"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st48",
+    		"Description": "We retain the personal information you provide while your account is in 
+    			existence or as needed to provide you services",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD10","PD11","PD12","PD13","PD14"],
+    		"Services": ["S6_2"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st49",
+    		"Description": "We may retain your personal information even after you have closed 
+    			your account if retention is reasonably necessary to comply with our legal obligations",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD10","PD11","PD12","PD13","PD14"],
+    		"Services": ["S9"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st50",
+    		"Description": "Our Customer Service may retain information for as long as is necessary 
+    			to provide support-related reporting and trend analysis only, but we generally delete 
+    			or de-personalize closed account data",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8","PD9","PD10","PD11","PD12","PD13","PD14","PD15","PD16","PD17"],
+    		"Services": ["S12"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st51",
+    		"Description": "In the case of our plugin impression data (i.e., the information that you visited 
+    			on sites carrying our social plugin, but which you did not click on), we de-personalize it within 
+    			7 days by creating aggregate data sets that cannot be traced back to individuals",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD15","PD16"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st53",
+    		"Description": "You may use our address book or “contacts” importer (or other similar features) 
+    			to upload your address book into our Services",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD11"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st54",
+    		"Description": "We store your address book (including phone numbers) and use it to help you manage 
+    			and leverage your contacts in connection with our Services",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD11"],
+    		"Services": ["S13"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st55",
+    		"Description": "We also use your address book to enhance your experience with our Services",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD11"],
+    		"Services": ["S6_5"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st56",
+    		"Description": "We may also use your address book to show you and other Members that you 
+    			share the same uploaded contacts who may or may not be Members",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD11"],
+    		"Services": ["S6_5"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st57",
+    		"Description": "We also use the information collected by the Customer Service for handling 
+    			questions to track potential problems and trends and customize our support responses to 
+    			better serve you",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD7"],
+    		"Services": ["S6_1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st58",
+    		"Description": "We do not use the information collected by the Customer Service for 
+    			handling questions for advertising",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD7"],
+    		"Services": ["S5"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st59",
+    		"Description": "If you are logged in as a Member when you visit sites with our plugins, 
+    			we use information that third-party sites have loaded in your web browser to recommend 
+    			tailored content to you",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD15","PD16"],
+    		"Services": ["S6_1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st60",
+    		"Description": "We will use information that third-party sites have loaded in your web 
+    			browser to personalize the functionality we provide on third-party sites, including 
+    			providing you insights from your professional network and allowing you to share information 
+    			with your network",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD15","PD16"],
+    		"Services": ["S6_1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st61",
+    		"Description": "We use information and content that you and other Members provide to us 
+    			to conduct research and development for the improvement of our Services",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8","PD9","PD10","PD11","PD12","PD13","PD14","PD15","PD16","PD17"],
+    		"Services": ["S6_6"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st62",
+    		"Description": "We use personal information from our Services, including Member profiles, 
+    			Groups content, and Company Pages, to inform and refine our search service",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD7","PD10","PD11","PD12","PD13","PD14"],
+    		"Services": ["S6_7"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st64",
+    		"Description": "Some third parties may target advertisements to you on the results page 
+    			based on your answers in the poll",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD17"],
+    		"Services": ["S5"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st65",
+    		"Description": "If the delivery of incentives requires your contact information, you may 
+    			be asked to provide personal information to the third party fulfilling the incentive offer, 
+    			which will be used only for the purpose of delivering incentives and verifying your contact information",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD10","PD11","PD12","PD13","PD14"],
+    		"Services": ["S15"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st66",
+    		"Description": "Providing additional account information also enables us to serve you ads 
+    			and other relevant content on and off of our Services",
+    		"Condition": "Users must agree to LinkedIn's User Agreement and Privacy Policy",
+    		"PrivateDatums": ["PD2"],
+    		"Services": ["S5"],
+    		"Type": "Prohibition"
+    	}
+    ],
+     "PrivateDatums": [
+    	{
+    		"ID": "PD1",
+    		"Description": "Basic-Account-Information",
+    		"Type": "PersonalInformation",
+    		"Attributes": [
+    			{
+    				"name": "Name",
+    				"Description": "Name"
+    			},
+    			{
+    				"name": "Email",
+    				"Description": "Email"
+    			},
+    			{
+    				"name": "Mobile-Number",
+    				"Description": "Mobile number"
+    			},
+    			{
+    				"name": "Password",
+    				"Description": "Password"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "PD2",
+    		"Description": "Additional-Account-Information",
+    		"Type": "PersonalInformation",
+    		"Attributes": [
+    			{
+    				"name": "Postal-Code",
+    				"Description": "Postal code"
+    			},
+    			{
+    				"name": "Job-title",
+    				"Description": "Job title"
+    			},
+    			{
+    				"name": "Company",
+    				"Description": "Company"
+    			},
+    			{
+    				"name": "Descriptions-of-skills",
+    				"Description": "Descriptions of skills"
+    			},
+    			{
+    				"name": "Professional-experience",
+    				"Description": "Professional experience"
+    			},
+    			{
+    				"name": "Educational-background",
+    				"Description": "Educational background"
+    			},
+    			{
+    				"name": "Other-Information",
+    				"Description": "Other information depending on the user's consent"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "PD3",
+    		"Description": "Purchases-Information",
+    		"Type": "PersonalInformation",
+    		"Attributes": [
+    			{
+    				"name": "Credit-Card",
+    				"Description": "credit card details"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "PD4",
+    		"Description": "Slideshare-Account",
+    		"Type": "PersonalInformation",
+    		"Attributes": [
+    			{
+    				"name": "Name",
+    				"Description": "Name"
+    			},
+    			{
+    				"name": "Email",
+    				"Description": "Email"
+    			},
+    			{
+    				"name": "Mobile-Number",
+    				"Description": "Mobile number"
+    			},
+    			{
+    				"name": "Password",
+    				"Description": "Password"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "PD5",
+    		"Description": "Email&Calendar",
+    		"Type": "PersonalInformation",
+    		"Attributes": [
+    			{
+    				"name": "Email",
+    				"Description": "Email header"
+    			},
+    			{
+    				"name": "Calendar-History",
+    				"Description": "calendar history information"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "PD6",
+    		"Description": "Messages",
+    		"Type": "UsageInformation",
+    		"Attributes": [
+    			{
+    				"name": "Message-Content",
+    				"Description": "Message content"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "PD7",
+    		"Description": "User-Activity",
+    		"Type": "UsageInformation",
+    		"Attributes": [
+    			{
+    				"name": "Information-Gathered",
+    				"Description": "In Mails, Groups and other contributions to LinkedIn Services"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "PD8",
+    		"Description": "Log-Data",
+    		"Type": "UsageInformation",
+    		"Attributes": [
+    			{
+    				"name": "IP-Address",
+    				"Description": "IP address"
+    			},
+    			{
+    				"name": "Computer-Operating-System",
+    				"Description": "computer operating system details"
+    			},
+    			{
+    				"name": "Web-Browser-Type",
+    				"Description": "type of web browser"
+    			},
+    			{
+    				"name": "Mobile-Device",
+    				"Description": "mobile device"
+    			},
+    			{
+    				"name": "Mobile-Operating-System",
+    				"Description": "mobile operating system"
+    			},
+    			{
+    				"name": "ISP",
+    				"Description": "name of ISP or mobile carrier"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "PD9",
+    		"Description": "User-Location",
+    		"Type": "UsageInformation",
+    		"Attributes": [
+    			{
+    				"name": "Location-Data",
+    				"Description": "location data"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "PD10",
+    		"Description": "Invitation-Information",
+    		"Type": "PersonalInformation",
+    		"Attributes": [
+    			{
+    				"name": "Name",
+    				"Description": "Name"
+    			},
+    			{
+    				"name": "Email",
+    				"Description": "Email"
+    			},
+    			{
+    				"name": "Mobile-Number",
+    				"Description": "Mobile number"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "PD11",
+    		"Description": "Address-Book",
+    		"Type": "PersonalInformation",
+    		"Attributes": [
+    			{
+    				"name": "Phone-Numbers",
+    				"Description": "phone numbers"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "PD12",
+    		"Description": "Testimonials-And-Advertisements",
+    		"Type": "PersonalInformation",
+    		"Attributes": [
+    			{
+    				"name": "Name",
+    				"Description": "name"
+    			},
+    			{
+    				"name": "Other-Personal-Information",
+    				"Description": "other personal information"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "PD13",
+    		"Description": "Communication-Messages",
+    		"Type": "PersonalInformation",
+    		"Attributes": [
+    			{
+    				"name": "Name",
+    				"Description": "name"
+    			},
+    			{
+    				"name": "Aggregate-Information",
+    				"Description": "aggregate information about user's network"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "PD14",
+    		"Description": "Limited-Public-Profile",
+    		"Type": "PersonalInformation",
+    		"Attributes": [
+    			{
+    				"name": "Name",
+    				"Description": "name"
+    			},
+    			{
+    				"name": "Headline",
+    				"Description": "headline"
+    			},
+    			{
+    				"name": "Current-Company",
+    				"Description": "current company"
+    			},
+    			{
+    				"name": "Current-Title",
+    				"Description": "current title"
+    			},
+    			{
+    				"name": "Location",
+    				"Description": "location"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "PD15",
+    		"Description": "Third-parties-Activity",
+    		"Type": "UsageInformation",
+    		"Attributes": [
+    			{
+    				"name": "Information-Loaded-In-Web-Browser",
+    				"Description": "Information about pages loaded in users' web browser"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "PD16",
+    		"Description": "Hyperlink-Information",
+    		"Type": "UsageInformation",
+    		"Attributes": [
+    			{
+    				"name": "URL",
+    				"Description": "URL contained in an hyperlink"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "PD17",
+    		"Description": "User-Answers",
+    		"Type": "UsageInformation",
+    		"Attributes": [
+    			{
+    				"name": "Poll-Answers",
+    				"Description": "poll answers"
+    			}
+    		]
+    	}
+    ],
+     "Recipients": [
+    	{
+    		"ID": "R1",
+    		"Name": "Visitors",
+    		"Description": "People on and off LinkedIn Services",
+    		"Recipient_Parts": ["Members","Non-Members"],
+    		"Type": "Individual",
+    		"Scope": "Internal/External"
+    		
+    	},
+    	{
+    		"ID": "R1_1",
+    		"Name": "Members",
+    		"Description": "Members",
+    		"Type": "Individual",
+    		"Scope": "Internal"
+    		
+    	},
+    	{
+    		"ID": "R1_2",
+    		"Name": "Non-Members",
+    		"Description": "Non-Members",
+    		"Type": "Individual",
+    		"Scope": "External"
+    		
+    	},
+    	{
+    		"ID": "R2",
+    		"Name": "Third-Parties",
+    		"Description": "Third parties",
+    		"Recipient_Parts": ["Advertisers","LinkedIn-Affiliates","Service-Providers","Subscribers"],
+    		"Type": "Organization",
+    		"Scope": "External"
+    		
+    	},
+    	{
+    		"ID": "R2_1",
+    		"Name": "Advertisers",
+    		"Description": "Third-party advertisers or ad networks for advertising",
+    		"Type": "Organization",
+    		"Scope": "External"
+    		
+    	},
+    	{
+    		"ID": "R2_2",
+    		"Name": "LinkedIn-Affiliates",
+    		"Description": "LinkedIn affiliates",
+    		"Type": "Organization",
+    		"Scope": "External"
+    		
+    	},
+    	{
+    		"ID": "R2_3",
+    		"Name": "Service-Providers",
+    		"Description": "Service providers",
+    		"Type": "Organization",
+    		"Scope": "External"
+    		
+    	},
+    	{
+    		"ID": "R2_4",
+    		"Name": "Subscribers",
+    		"Description": "Subscribers",
+    		"Type": "Organization",
+    		"Scope": "External"
+    		
+    	},
+    	{
+    		"ID": "R3",
+    		"Name": "LinkedIn-Services",
+    		"Description": "LinkedIn Services",
+    		"Type": "Organization",
+    		"Scope": "Internal"
+    		
+    	},
+    	{
+    		"ID": "R4",
+    		"Name": "Anyone-In-LinkedIn",
+    		"Description": "Anyone",
+    		"Recipient_Parts": ["Visitors","Third-Parties"],
+    		"Type": "Organization",
+    		"Scope": "Internal"
+    		
+    	}
+    ],
+    "Services": [
+    	{
+    		"ID": "S1",
+    		"Description": "Account",
+    		"PrivateDatums": ["PD1","PD2","PD4"],
+    		"Service_Parts": ["S1_1","S1_2"]
+    	},
+    	{
+    		"ID": "S1_1",
+    		"Description": "create and manage LinkedIn account",
+    		"PrivateDatums": ["PD1","PD2"],
+    	},
+    	{
+    		"ID": "S1_2",
+    		"Description": "create and manage Slideshare/Pulse account",
+    		"PrivateDatums": ["PD4"],
+    	},
+    	{
+    		"ID": "S2",
+    		"Description": "purchases",
+    		"PrivateDatums": ["PD3"],
+    	},
+    	{
+    		"ID": "S3",
+    		"Description": "email and calendar sync",
+    		"PrivateDatums": ["PD5","PD6"],
+    	},
+    	{
+    		"ID": "S4",
+    		"Description": "communications between users and help centers",
+    		"PrivateDatums": ["PD7"],
+    	},
+    	{
+    		"ID": "S5",
+    		"Description": "handle questions for advertising, serve ads",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD7","PD10","PD11","PD12","PD13","PD14","PD16","PD17"],
+    	},
+    	{
+    		"ID": "S6",
+    		"Description": "Development",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8","PD9","PD10","PD11","PD12","PD13","PD14","PD15","PD16","PD17"],
+    		"Service_Parts": ["S6_1","S6_2","S6_3","S6_4","S6_5","S6_6","S6_7"]
+    	},
+    	{
+    		"ID": "S6_1",
+    		"Description": "show local information, customize support responses, tailor content, personalize third-party sites functionality",
+    		"PrivateDatums": ["PD7","PD9","PD15","PD16"],
+    	},
+    	{
+    		"ID": "S6_2",
+    		"Description": "deliver services",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD10","PD11","PD12","PD13","PD14"],
+    	},
+    	{
+    		"ID": "S6_3",
+    		"Description": "promote services",
+    		"PrivateDatums": ["PD12"],
+    	},
+    	{
+    		"ID": "S6_4",
+    		"Description": "maintenance, analysis, audit, marketing and development",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8","PD9","PD10","PD11","PD12","PD13","PD14","PD15","PD16","PD17"],
+    	},
+    	{
+    		"ID": "S6_5",
+    		"Description": "enhance user experience with LinkedIn Services",
+    		"PrivateDatums": ["PD11"],
+    	},
+    	{
+    		"ID": "S6_6",
+    		"Description": "conduct research and development",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8","PD9","PD10","PD11","PD12","PD13","PD14","PD15","PD16","PD17"],
+    	},
+    	{
+    		"ID": "S6_7",
+    		"Description": "inform and refine our search service",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD7","PD10","PD11","PD12","PD13","PD14"],
+    	},
+    	{
+    		"ID": "S7",
+    		"Description": "connect users",
+    		"PrivateDatums": ["PD10"],
+    	},
+    	{
+    		"ID": "S8",
+    		"Description": "user-initiated communications within LinkedIn",
+    		"PrivateDatums": ["PD10","PD13"],
+    	},
+    	{
+    		"ID": "S9",
+    		"Description": "law, subpoena, or other legal process",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD7","PD10","PD11","PD12","PD13","PD14"],
+    	},
+    	{
+    		"ID": "S10",
+    		"Description": "distribute content",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD10","PD11","PD12","PD13","PD14"],
+    	},
+    	{
+    		"ID": "S11",
+    		"Description": "manage candidate sourcing",
+    		"PrivateDatums": ["PD14"],
+    	},
+    	{
+    		"ID": "S12",
+    		"Description": "support-related reporting, trend analysis",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD6","PD7","PD8","PD9","PD10","PD11","PD12","PD13","PD14","PD15","PD16","PD17"],
+    	},
+    	{
+    		"ID": "S13",
+    		"Description": "manage and leverage user contacts",
+    		"PrivateDatums": ["PD11"],
+    	},
+    	{
+    		"ID": "S14",
+    		"Description": "Investigations, safeguards",
+    		"PrivateDatums": ["PD7"],
+    	},
+    	{
+    		"ID": "S15",
+    		"Description": "deliver incentives",
+    		"PrivateDatums": ["PD1","PD2","PD3","PD4","PD5","PD10","PD11","PD12","PD13","PD14"],
+    	}
+    ],
+    "Enforcements": [
+    	{
+    		"ID": "En1",
+    		"Name": "Disclosure-personal-information",
+    		"Description": "We do not rent or sell personal information that you have not posted on our Services, except as described in this Privacy Policy.",
+    		"Type": "Action"
+    	},
+    	{
+    		"ID": "En2",
+    		"Name": "Request-personal-information",
+    		"Description": "You can request your personal information that is not viewable on your profile or readily accessible to you (for example, your IP access logs) through LinkedIn‘s Help Center.",
+    		"Type": "Action"
+    	},
+    	{
+    		"ID": "En3",
+    		"Name": "Webserver-Logs",
+    		"Description": "We maintain 30 days worth of webserver logs for security, debugging, and site stability purposes only.",
+    		"Type": "Action"
+    	},
+    	{
+    		"ID": "En4",
+    		"Name": "Cookies",
+    		"Description": "We use cookies and similar technologies, including mobile application identifiers, to help us recognize you across different Services, learn about your interests both on and off our Services, improve your experience, increase security, measure use and effectiveness of our Services, and serve advertising.",
+    		"Type": "Config"
+    	},
+    	{
+    		"ID": "En5",
+    		"Name": "Cookies&Beacons-Consent",
+    		"Description": "By visiting our Services, you consent to the placement of cookies and beacons in your browser and HTML-based emails in accordance with this Privacy Policy, which incorporates by reference our Cookie Policy.",
+    		"Type": "Config"
+    	},
+    	{
+    		"ID": "En6",
+    		"Name": "Advertising",
+    		"Description": "We adhere to the Digital Advertising Alliance’s self-regulatory principles for online behavioral advertising.",
+    		"Type": "Action"
+    	},
+    	{
+    		"ID": "En7",
+    		"Name": "Protection",
+    		"Description": "We use automatic scanning technology to help protect you and other Members.",
+    		"Type": "Config"
+    	},
+    	{
+    		"ID": "En8",
+    		"Name": "Control-information-US-residents",
+    		"Description": "If you reside in the United States, then the personal information provided to or collected by our Services is controlled by LinkedIn Corporation.",
+    		"Type": "Action"
+    	},
+    	{
+    		"ID": "En9",
+    		"Name": "Control-information-non-US-residents",
+    		"Description": "If you reside outside the United States, then the personal information provided to or collected by our Services is controlled by LinkedIn Ireland.",
+    		"Type": "Action"
+    	},
+    	{
+    		"ID": "En10",
+    		"Name": "User-Rights",
+    		"Description": "You have a right to (1) access, modify, correct, or delete your personal information controlled by LinkedIn regarding your profile, (2) change or remove your content, and (3) close your account.",
+    		"Type": "Action"
+    	},
+    	{
+    		"ID": "En11",
+    		"Name": "Certification",
+    		"Description": "LinkedIn.com and SlideShare.net have been awarded TRUSTe's Privacy Seal signifying that this Privacy Policy and its practices have been reviewed by TRUSTe for compliance with TRUSTe's program requirements.",
+    		"Type": "Action"
+    	},
+    	{
+    		"ID": "En12",
+    		"Name": "Compliance",
+    		"Description": "We comply with the U.S.-E.U. and U.S.-Swiss Safe Harbor Frameworks as set forth by the U.S. Department of Commerce regarding the collection, use, and retention of personal data from European Union member countries and Switzerland.",
+    		"Type": "Action"
+    	},
+    	{
+    		"ID": "En13",
+    		"Name": "Legal",
+    		"Description": "California Civil Code Section 1798.83, known as the “Shine The Light” law, permits our customers who are California residents to request and obtain from us a list of what personal information (if any) we disclosed to third parties for direct marketing purposes in the preceding calendar year and the names and addresses of those third parties.",
+    		"Type": "Action"
+    	},
+    	{
+    		"ID": "En14",
+    		"Name": "User-Options-regarding-Information",
+    		"Description": "You can withdraw or modify your consent to our collection and processing of the information you provide at any time, in accordance with the terms of this Privacy Policy and the User Agreement, by changing your account settings or your profile on LinkedIn or SlideShare, or by closing your LinkedIn, SlideShare and Pulse accounts.",
+    		"Type": "Action"
+    	}
+    ]
+}

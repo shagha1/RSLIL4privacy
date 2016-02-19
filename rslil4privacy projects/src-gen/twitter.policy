@@ -1,0 +1,127 @@
+SPEC HEADER
+	ATTR NAMESPACE "http://gaius.isri.cmu.edu/example2.owl"
+	ATTR DESC "This policy is written to test the use limitation principle"
+	A Anyone > Members
+	A Third-party > Payment-Service-Provider,Card-Network
+	A Service-Provider > Payment-Service-Provider,Card-Network
+	P Account > Registration/Authentication,Profile-Completion,Interaction-Services
+	P Financial > Transactions,Card-Linked-Services
+	P Security > Handle-Prohibited-Activities,Protection
+	P Legal > Disputes,Rights,Requests
+	P Development > Service-Improvement,Feature-Development,Service-Customization
+	D Account > Name,Username,Password,Email-Address,Phone-Number
+	D Public-Profile > Short-Biography,Location,Website,Picture
+	D User-Location > Location
+	D User-Interaction > Redirection-of-links
+	D Log-Data > IP-address,Browser-Type,Operating-System,Referring-Web-Page,Pages-Visited,Location,Mobile-Carrier,Device-Information,Search-Terms,Cookie-Information
+	D Widget-Data > Web-Page-Visited,Cookie-Browser
+	D Payment-Information > Credit-Debit-Card-Number,Card-Expiration-Date,CVV-Code,Billing-Address
+	D User-Address > Shipping-Address
+	D Payment-Cards-Information > Credit-Debit-Card-Number
+	D Transaction-Data > Merchant-Name,Date,Time,Amount
+	D Registered-Card-Data > Merchant-Name,Date,Time,Amount
+	D Browser-Information > Cookies,IP-Address
+	D Advertising-Information > Browser-Cookie-ID,Website-URL-Visited,Mobile-Device-ID,Hash-Of-Common-Account-ID
+	D User-Naming > Name,Username
+	D Contact-Information > Email-Address,Phone-Number
+	D User-Public-Information > Messages,Metadata,Language,Country,Time-Zone,Lists-User,People-Followed,Tweets-Favorites-Retweets,Other-Information
+	D User-Shared-Information > Direct-Messages,Protected-Tweets
+	D User-Name > Name
+	D User-Email > Email
+	D Communication > Message
+	D Username > Username
+	D IP-Address > Full-IP-Address
+	D Tailored-Content > Browser-Cookies,Device-IDs
+	D Simple-Payment-Information > Credit-Debit-Card-Number,Card-Expiration-Date,Billing-Address
+	D Public-Tweets > Public-Tweets
+	D Non-Private-Aggregated-Non-Personal-Information > Public-User-Profile-Information,Public-Tweets,People-Followed,People-Following,Number-Users-Click-Link,Reports-Advertisers
+	D ALL-Information > Account,Public-Profile,User-Location,User-Interaction,Log-Data,Widget-Data,Payment-Information,User-Address,Payment-Cards-Information,Transaction-Data,Registered-Card-Data,Browser-Information,Advertising-Information,User-Naming,Contact-Information,User-Public-Information,User-Shared-Information,User-Name,User-Email,Communication,Username,IP-Address,Tailored-Content,Simple-Payment-Information,Public-Tweets,Non-Private-Aggregated-Non-Personal-Information
+SPEC POLICY
+	P COLLECT Account FOR Account
+	P COLLECT Public-Profile FOR Account
+	P COLLECT Account, Public-Profile FOR Anything
+	P COLLECT User-Location FOR Anything
+	P COLLECT User-Interaction FOR Anything
+	P COLLECT Log-Data FOR Anything
+	P COLLECT Log-Data, Widget-Data FOR Anything
+	P COLLECT Payment-Information, User-Address FOR Transactions
+	P COLLECT Payment-Cards-Information FOR Card-Linked-Services
+	P COLLECT Payment-Information, User-Address, Payment-Cards-Information FOR Transactions
+	P COLLECT Transaction-Data, Registered-Card-Data FOR Card-Linked-Services
+	P COLLECT Browser-Information FOR Anything
+	P COLLECT Account, Public-Profile, User-Location, User-Interaction, Log-Data, Widget-Data, Payment-Information, User-Address, Payment-Cards-Information, Transaction-Data, Registered-Card-Data, Browser-Information, Advertising-Information, User-Naming, Contact-Information, User-Public-Information, User-Shared-Information, User-Name, User-Email, Communication, Username, IP-Address, Tailored-Content, Simple-Payment-Information, Public-Tweets, Non-Private-Aggregated-Non-Personal-Information FOR Service-Improvement
+	R COLLECT Account, Public-Profile, User-Location, Payment-Information, User-Address, Payment-Cards-Information, Transaction-Data, Registered-Card-Data, User-Naming, Contact-Information, User-Public-Information, User-Shared-Information, User-Name, User-Email, Communication, Username, Simple-Payment-Information, Public-Tweets, Non-Private-Aggregated-Non-Personal-Information FOR Anything
+	P COLLECT Log-Data FOR Registration/Authentication,Interaction-Services
+	P COLLECT Log-Data FOR Interaction-Services
+	P COLLECT Advertising-Information FOR Advertising
+	P TRANSFER User-Naming TO Members FOR Anything
+	P TRANSFER Contact-Information TO Third-party FOR Anything
+	P TRANSFER User-Public-Information TO Anyone FOR Anything
+	P TRANSFER User-Public-Information TO Anyone FOR Anything
+	R TRANSFER Payment-Information, User-Address TO Anyone FOR Anything
+	P TRANSFER Account, Public-Profile, User-Location, User-Interaction, Log-Data, Widget-Data, Payment-Information, User-Address, Payment-Cards-Information, Transaction-Data, Registered-Card-Data, Browser-Information, Advertising-Information, User-Naming, Contact-Information, User-Public-Information, User-Shared-Information, User-Name, User-Email, Communication, Username, IP-Address, Tailored-Content, Simple-Payment-Information, Public-Tweets, Non-Private-Aggregated-Non-Personal-Information TO Third-party FOR Anything
+	P TRANSFER Account, Public-Profile, User-Location, User-Interaction, Log-Data, Widget-Data, Payment-Information, User-Address, Payment-Cards-Information, Transaction-Data, Registered-Card-Data, Browser-Information, Advertising-Information, User-Naming, Contact-Information, User-Public-Information, User-Shared-Information, User-Name, User-Email, Communication, Username, IP-Address, Tailored-Content, Simple-Payment-Information, Public-Tweets, Non-Private-Aggregated-Non-Personal-Information TO Anyone FOR Anything
+	P TRANSFER User-Shared-Information TO Third-party FOR Anything
+	P TRANSFER Account, Public-Profile, User-Location, Payment-Information, User-Address, Payment-Cards-Information, Transaction-Data, Registered-Card-Data, User-Naming, Contact-Information, User-Public-Information, User-Shared-Information, User-Name, User-Email, Communication, Username, Simple-Payment-Information, Public-Tweets, Non-Private-Aggregated-Non-Personal-Information TO Service-Provider FOR Anything
+	P TRANSFER Account, Public-Profile, User-Location, Payment-Information, User-Address, Payment-Cards-Information, Transaction-Data, Registered-Card-Data, User-Naming, Contact-Information, User-Public-Information, User-Shared-Information, User-Name, User-Email, Communication, Username, Simple-Payment-Information, Public-Tweets, Non-Private-Aggregated-Non-Personal-Information TO Service-Provider FOR Anything
+	P TRANSFER Payment-Information TO Payment-Service-Provider,Payment-Service-Provider FOR Transactions
+	P TRANSFER Payment-Information TO Payment-Service-Provider,Payment-Service-Provider FOR Handle-Prohibited-Activities
+	R TRANSFER Payment-Information TO Payment-Service-Provider,Payment-Service-Provider FOR Disputes
+	P TRANSFER Payment-Information TO Payment-Service-Provider,Payment-Service-Provider FOR Transactions
+	P TRANSFER Payment-Cards-Information TO Payment-Service-Provider,Card-Network,Payment-Service-Provider,Card-Network FOR Transactions,Card-Linked-Services
+	P TRANSFER Payment-Information, User-Address, Transaction-Data, User-Name, User-Email TO Seller-Commerce-Provider-Marketplace FOR Transactions,Disputes
+	P TRANSFER Payment-Information, User-Address, Transaction-Data, User-Name, User-Email TO Seller-Commerce-Provider-Marketplace FOR Handle-Prohibited-Activities
+	P TRANSFER Account, Public-Profile, User-Location, User-Interaction, Log-Data, Widget-Data, Payment-Information, User-Address, Payment-Cards-Information, Transaction-Data, Registered-Card-Data, Browser-Information, Advertising-Information, User-Naming, Contact-Information, User-Public-Information, User-Shared-Information, User-Name, User-Email, Communication, Username, IP-Address, Tailored-Content, Simple-Payment-Information, Public-Tweets, Non-Private-Aggregated-Non-Personal-Information TO Anyone FOR Requests
+	P TRANSFER Account, Public-Profile, User-Location, User-Interaction, Log-Data, Widget-Data, Payment-Information, User-Address, Payment-Cards-Information, Transaction-Data, Registered-Card-Data, Browser-Information, Advertising-Information, User-Naming, Contact-Information, User-Public-Information, User-Shared-Information, User-Name, User-Email, Communication, Username, IP-Address, Tailored-Content, Simple-Payment-Information, Public-Tweets, Non-Private-Aggregated-Non-Personal-Information TO Anyone FOR Protection
+	P TRANSFER Account, Public-Profile, User-Location, User-Interaction, Log-Data, Widget-Data, Payment-Information, User-Address, Payment-Cards-Information, Transaction-Data, Registered-Card-Data, Browser-Information, Advertising-Information, User-Naming, Contact-Information, User-Public-Information, User-Shared-Information, User-Name, User-Email, Communication, Username, IP-Address, Tailored-Content, Simple-Payment-Information, Public-Tweets, Non-Private-Aggregated-Non-Personal-Information TO Anyone FOR Handle-Prohibited-Activities
+	P TRANSFER Account, Public-Profile, User-Location, User-Interaction, Log-Data, Widget-Data, Payment-Information, User-Address, Payment-Cards-Information, Transaction-Data, Registered-Card-Data, Browser-Information, Advertising-Information, User-Naming, Contact-Information, User-Public-Information, User-Shared-Information, User-Name, User-Email, Communication, Username, IP-Address, Tailored-Content, Simple-Payment-Information, Public-Tweets, Non-Private-Aggregated-Non-Personal-Information TO Anyone FOR Rights
+	P TRANSFER Account, Public-Profile, User-Location, User-Interaction, Log-Data, Widget-Data, Payment-Information, User-Address, Payment-Cards-Information, Transaction-Data, Registered-Card-Data, Browser-Information, Advertising-Information, User-Naming, Contact-Information, User-Public-Information, User-Shared-Information, User-Name, User-Email, Communication, Username, IP-Address, Tailored-Content, Simple-Payment-Information, Public-Tweets, Non-Private-Aggregated-Non-Personal-Information TO Anyone FOR Transactions
+	P TRANSFER Account, Public-Profile, User-Location, User-Interaction, Log-Data, Widget-Data, Payment-Information, User-Address, Payment-Cards-Information, Transaction-Data, Registered-Card-Data, Browser-Information, Advertising-Information, User-Naming, Contact-Information, User-Public-Information, User-Shared-Information, User-Name, User-Email, Communication, Username, IP-Address, Tailored-Content, Simple-Payment-Information, Public-Tweets, Non-Private-Aggregated-Non-Personal-Information TO Corporate-Affiliates FOR Advertising,Service-Improvement
+	P TRANSFER Non-Private-Aggregated-Non-Personal-Information TO Anyone FOR Anything
+	P RETAIN Contact-Information, User-Email, Communication FOR Communication
+	P RETAIN Account, Public-Profile FOR Anything
+	P RETAIN User-Location FOR Feature-Development
+	P RETAIN User-Location FOR Service-Customization
+	P RETAIN Log-Data, User-Email, Username, IP-Address FOR Anything
+	P RETAIN Widget-Data FOR Anything
+	P RETAIN Tailored-Content FOR Anything
+	P RETAIN User-Address, Simple-Payment-Information FOR Transactions
+	P RETAIN Transaction-Data FOR Anything
+	P RETAIN Account, Public-Profile, User-Location, User-Interaction, Log-Data, Widget-Data, Payment-Information, User-Address, Payment-Cards-Information, Transaction-Data, Registered-Card-Data, Browser-Information, Advertising-Information, User-Naming, Contact-Information, User-Public-Information, User-Shared-Information, User-Name, User-Email, Communication, Username, IP-Address, Tailored-Content, Simple-Payment-Information, Public-Tweets, Non-Private-Aggregated-Non-Personal-Information FOR Requests
+	P RETAIN Account, Public-Profile, User-Location, User-Interaction, Log-Data, Widget-Data, Payment-Information, User-Address, Payment-Cards-Information, Transaction-Data, Registered-Card-Data, Browser-Information, Advertising-Information, User-Naming, Contact-Information, User-Public-Information, User-Shared-Information, User-Name, User-Email, Communication, Username, IP-Address, Tailored-Content, Simple-Payment-Information, Public-Tweets, Non-Private-Aggregated-Non-Personal-Information FOR Protection
+	P RETAIN Account, Public-Profile, User-Location, User-Interaction, Log-Data, Widget-Data, Payment-Information, User-Address, Payment-Cards-Information, Transaction-Data, Registered-Card-Data, Browser-Information, Advertising-Information, User-Naming, Contact-Information, User-Public-Information, User-Shared-Information, User-Name, User-Email, Communication, Username, IP-Address, Tailored-Content, Simple-Payment-Information, Public-Tweets, Non-Private-Aggregated-Non-Personal-Information FOR Handle-Prohibited-Activities
+	P RETAIN Account, Public-Profile, User-Location, User-Interaction, Log-Data, Widget-Data, Payment-Information, User-Address, Payment-Cards-Information, Transaction-Data, Registered-Card-Data, Browser-Information, Advertising-Information, User-Naming, Contact-Information, User-Public-Information, User-Shared-Information, User-Name, User-Email, Communication, Username, IP-Address, Tailored-Content, Simple-Payment-Information, Public-Tweets, Non-Private-Aggregated-Non-Personal-Information FOR Rights
+	P RETAIN Account, Public-Profile, User-Location, User-Interaction, Log-Data, Widget-Data, Payment-Information, User-Address, Payment-Cards-Information, Transaction-Data, Registered-Card-Data, Browser-Information, Advertising-Information, User-Naming, Contact-Information, User-Public-Information, User-Shared-Information, User-Name, User-Email, Communication, Username, IP-Address, Tailored-Content, Simple-Payment-Information, Public-Tweets, Non-Private-Aggregated-Non-Personal-Information FOR Anything
+	P RETAIN Public-Profile, Public-Tweets FOR Anything
+	R RETAIN Account, Public-Profile, User-Location, Payment-Information, User-Address, Payment-Cards-Information, Transaction-Data, Registered-Card-Data, User-Naming, Contact-Information, User-Public-Information, User-Shared-Information, User-Name, User-Email, Communication, Username, Simple-Payment-Information, Public-Tweets, Non-Private-Aggregated-Non-Personal-Information FOR Anything
+	P USE Contact-Information FOR Service-Customization
+	P USE Contact-Information FOR Communication
+	P USE Contact-Information FOR Communication
+	P USE Contact-Information FOR Handle-Prohibited-Activities
+	P USE Contact-Information FOR Interaction-Services
+	P USE Account, Public-Profile FOR Service-Improvement
+	P USE Public-Profile, User-Public-Information, User-Shared-Information, User-Name, Username, Public-Tweets FOR Advertising,Service-Customization
+	P USE User-Location FOR Feature-Development
+	P USE User-Location FOR Service-Customization
+	P USE User-Interaction FOR Service-Improvement
+	P USE User-Interaction FOR Advertising
+	P USE User-Interaction FOR Service-Improvement
+	P USE Log-Data FOR Service-Improvement
+	P USE Log-Data FOR Service-Customization
+	P USE Log-Data FOR Advertising,Service-Customization
+	P USE Widget-Data FOR Service-Customization
+	P USE Registered-Card-Data FOR Card-Linked-Services
+	P USE Advertising-Information FOR Advertising
+	P USE Account, Public-Profile, User-Location, User-Interaction, Log-Data, Widget-Data, Payment-Information, User-Address, Payment-Cards-Information, Transaction-Data, Registered-Card-Data, Browser-Information, Advertising-Information, User-Naming, Contact-Information, User-Public-Information, User-Shared-Information, User-Name, User-Email, Communication, Username, IP-Address, Tailored-Content, Simple-Payment-Information, Public-Tweets, Non-Private-Aggregated-Non-Personal-Information FOR Advertising,Service-Customization
+	P INFORM FOR Anything
+	P INFORM FOR Anything
+	P INFORM FOR Anything
+	P INFORM FOR Anything
+	P INFORM FOR Anything
+	P INFORM FOR Anything
+	P INFORM FOR Anything
+	P INFORM FOR Anything
+	P INFORM FOR Anything
+	P INFORM FOR Anything
+	P INFORM FOR Anything
+	P INFORM FOR Anything

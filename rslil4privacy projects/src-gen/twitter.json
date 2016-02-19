@@ -1,0 +1,1431 @@
+{
+	"name": "Twitter.rslil4privacy",
+	"Collections": [
+    	{
+    		"ID": "st1",
+    		"Description": "When you create or reconfigure an account, you provide some personal information, such as your name, username, password, email address, or phone number.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P1"],
+    		"Services": ["S1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st2",
+    		"Description": "You may provide us with profile information to make public on the Twitter Services, such as a short biography, your location, your website, or a picture.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P2"],
+    		"Services": ["S1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st3",
+    		"Description": "If you connect your account on our Services to your account on another service in order to cross-post between our Services and that service, the other service may send us your registration or profile information on that service and other information that you authorize.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P1","P2"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st4",
+    		"Description": "Twitter may receive information about your location.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P3"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st5",
+    		"Description": "Twitter may keep track of how you interact with links across our Services, including our email notifications, third-party services, and client applications, by redirecting clicks or through other means.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P4"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st6",
+    		"Description": "When you use our Services, we may receive information (“Log Data”) such as your IP address, browser type, operating system, the referring web page, pages visited, location, your mobile carrier, device information (including device and application IDs), search terms, and cookie information.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P5"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st7",
+    		"Description": "When third-party websites that integrate Twitter buttons or widgets first load our buttons or widgets for display, we receive Log Data that includes the web page you visited and a cookie that identifies your browser (“Widget Data”).",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P5","P6"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st8",
+    		"Description": "You may provide your payment information, including your credit or debit card number, card expiration date, CVV code, and billing address (collectively, “Payment Information”), along with your shipping address, to complete a commerce transaction through our Services.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P7","P8"],
+    		"Services": ["S2_1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st9",
+    		"Description": "You may also provide your credit or debit card number to register for card-linked services, such as offers.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P9"],
+    		"Services": ["S2_2"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st10",
+    		"Description": "We collect information created by your purchases made through our Services (“Transaction Data”).",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P7","P8","P9"],
+    		"Services": ["S2_1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st11",
+    		"Description": "If you register your credit or debit card with Twitter for card-linked services, we receive information about the card transactions from a third-party payment services provider or card network (“Registered Card Data”). Transaction Data and Registered Card Data may include the merchant’s name and the date, time and amount of the transaction.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P10","P11"],
+    		"Services": ["S2_2"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st12",
+    		"Description": "Third-party service providers may collect information sent by your browser as part of a web page request, such as cookies or your IP address.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P12"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st13",
+    		"Description": "We may also receive information about you from our corporate affiliates in order to help provide, understand, and improve our Services and our affiliates' services, including the delivery of ads.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P1","P2","P3","P4","P5","P6","P7","P8","P9","P10","P11","P12","P13","P14","P15","P16","P17","P18","P19","P20","P21","P22","P23","P24","P25","P26"],
+    		"Services": ["S7_1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st14",
+    		"Description": "We do not knowingly collect personal information from children under 13.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P1","P2","P3","P7","P8","P9","P10","P11","P14","P15","P16","P17","P18","P19","P20","P21","P24","P25","P26"],
+    		"Enforcements": ["E1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st15",
+    		"Description": "We receive Log Data when you interact with our Services, for example, when you visit our websites, sign into our Services, interact with our email notifications, use your account to authenticate to a third-party website or application, or visit a third-party website that includes a Twitter button or widget. ",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P5"],
+    		"Services": ["S1_1","S1_3"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st16",
+    		"Description": "We may also receive Log Data when you click on, view or interact with links on our Services, including links to third-party applications, such as when you choose to install another application through Twitter.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P5"],
+    		"Services": ["S1_3"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st17",
+    		"Description": "Third-party ad partners may share information with us, like a browser cookie ID, website URL visited, mobile device ID, or cryptographic hash of a common account identifier (such as an email address), to help us measure and tailor ads.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P13"],
+    		"Services": ["S3"],
+    		"Type": "Prohibition"
+    	}
+    ],
+    "Disclosure": [
+    	{
+    		"ID": "st18",
+    		"Description": "On the Twitter Services, your name and username are listed publicly, including on your profile page and in search results.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P14"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st19",
+    		"Description": "When you use Digits by Twitter to sign up for or login to a third-party application, you are directing Twitter to share your contact information, such as your phone number, with that application.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P15"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st20",
+    		"Description": "Your public information includes the messages you Tweet; the metadata provided with Tweets, such as when you Tweeted and the client application you used to Tweet; the language, country, and time zone associated with your account; and the lists you create, people you follow, Tweets you mark as favorites or Retweet, and many other bits of information that result from your use of the Twitter Services.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P16"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st21",
+    		"Description": "The Twitter Services broadly and instantly disseminate your public information to a wide range of users, customers, and services.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P16"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st22",
+    		"Description": "We consider your Payment Information and shipping address private and do not make such information public.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P7","P8"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st23",
+    		"Description": "We may share or disclose your information at your direction, such as when you authorize a third-party web client or application to access your account.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P1","P2","P3","P4","P5","P6","P7","P8","P9","P10","P11","P12","P13","P14","P15","P16","P17","P18","P19","P20","P21","P22","P23","P24","P25","P26"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st24",
+    		"Description": "Other users may share or disclose information about you, such as when they mention you, share a photo of you, or tag you in a photo.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P1","P2","P3","P4","P5","P6","P7","P8","P9","P10","P11","P12","P13","P14","P15","P16","P17","P18","P19","P20","P21","P22","P23","P24","P25","P26"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st25",
+    		"Description": "If you’ve shared information, like direct messages or protected Tweets, with another user who accesses the Twitter Services through a third-party service, keep in mind that the information may be shared with the third-party service.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P17"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st26",
+    		"Description": "We may share your private personal information with engaged service providers that perform functions and provide services to us in the United States, Ireland, and other countries service subject to obligations consistent with this Privacy Policy and any other appropriate confidentiality and security measures.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P1","P2","P3","P7","P8","P9","P10","P11","P14","P15","P16","P17","P18","P19","P20","P21","P24","P25","P26"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st27",
+    		"Description": "We may share your private personal information with engaged service providers that perform functions and provide services to us in the United States, Ireland, and other countries service on the condition that the third parties use your private personal data only on our behalf and pursuant to our instructions.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P1","P2","P3","P7","P8","P9","P10","P11","P14","P15","P16","P17","P18","P19","P20","P21","P24","P25","P26"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st28",
+    		"Description": "We share your Payment Information with payment services providers to process payments.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P7"],
+    		"Services": ["S2_1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st29",
+    		"Description": "We share your Payment Information with payment services providers to prevent, detect and investigate fraud or other prohibited activities.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P7"],
+    		"Services": ["S4_1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st30",
+    		"Description": "We share your Payment Information with payment services providers to facilitate dispute resolution such as chargebacks or refunds.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P7"],
+    		"Services": ["S5_1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st31",
+    		"Description": "We share your Payment Information with payment services providers for other purposes associated with the acceptance of credit or debit cards.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P7"],
+    		"Services": ["S2_1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st32",
+    		"Description": "We may share your credit or debit card number with payment services providers or card networks to monitor card transactions at participating merchants and track redemption activity for the purposes of providing card-linked services.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P9"],
+    		"Services": ["S2_1","S2_2"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st33",
+    		"Description": "If you buy goods or services through our Services, we may provide the seller, commerce provider or marketplace with your name, email address, shipping address, Payment Information and Transaction Data to facilitate payment processing, order fulfilment and dispute resolution (including payment and shipping disputes).",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P7","P8","P10","P18","P19"],
+    		"Services": ["S2_1","S5_1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st34",
+    		"Description": "If you buy goods or services through our Services, we may provide the seller, commerce provider or marketplace with your name, email address, shipping address, Payment Information and Transaction Data to help prevent, detect and investigate fraud or other prohibited activities.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P7","P8","P10","P18","P19"],
+    		"Services": ["S4_1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st35",
+    		"Description": "Notwithstanding anything to the contrary in this Policy, we may disclose your information if we believe that it is reasonably necessary to comply with a law, regulation, legal process, or governmental request.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P1","P2","P3","P4","P5","P6","P7","P8","P9","P10","P11","P12","P13","P14","P15","P16","P17","P18","P19","P20","P21","P22","P23","P24","P25","P26"],
+    		"Services": ["S5_3"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st36",
+    		"Description": "Notwithstanding anything to the contrary in this Policy, we may disclose your information if we believe that it is reasonably necessary to protect the safety of any person.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P1","P2","P3","P4","P5","P6","P7","P8","P9","P10","P11","P12","P13","P14","P15","P16","P17","P18","P19","P20","P21","P22","P23","P24","P25","P26"],
+    		"Services": ["S4_2"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st37",
+    		"Description": "Notwithstanding anything to the contrary in this Policy, we may disclose your information if we believe that it is reasonably necessary  to address fraud, security or technical issues.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P1","P2","P3","P4","P5","P6","P7","P8","P9","P10","P11","P12","P13","P14","P15","P16","P17","P18","P19","P20","P21","P22","P23","P24","P25","P26"],
+    		"Services": ["S4_1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st38",
+    		"Description": "Notwithstanding anything to the contrary in this Policy, we may disclose your information if we believe that it is reasonably necessary to protect Twitter’s rights or property.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P1","P2","P3","P4","P5","P6","P7","P8","P9","P10","P11","P12","P13","P14","P15","P16","P17","P18","P19","P20","P21","P22","P23","P24","P25","P26"],
+    		"Services": ["S5_2"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st39",
+    		"Description": "In the event that Twitter is involved in a bankruptcy, merger, acquisition, reorganization or sale of assets, your information may be sold or transferred as part of that transaction.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P1","P2","P3","P4","P5","P6","P7","P8","P9","P10","P11","P12","P13","P14","P15","P16","P17","P18","P19","P20","P21","P22","P23","P24","P25","P26"],
+    		"Services": ["S2_1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st40",
+    		"Description": "We may also disclose information about you to our corporate affiliates in order to help provide, understand, and improve our Services and our affiliates’ services, including the delivery of ads.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P1","P2","P3","P4","P5","P6","P7","P8","P9","P10","P11","P12","P13","P14","P15","P16","P17","P18","P19","P20","P21","P22","P23","P24","P25","P26"],
+    		"Services": ["S3","S7_1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st41",
+    		"Description": "We may share or disclose your non-private, aggregated or otherwise non-personal information, such as your public user profile information, public Tweets, the people you follow or that follow you, or the number of users who clicked on a particular link (even if only one did), or reports to advertisers about unique users who saw or clicked on their ads after we have removed any private personal information (such as your name or contact information).",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P26"],
+    		"Type": "Prohibition"
+    	}
+    ],
+    "Retention": [
+    	{
+    		"ID": "st42",
+    		"Description": "If you email us, we may keep your message, email address and contact information to respond to your request.",
+    		"Condition": "Condition",
+    		"Period": "Until necessary to respond to your request.",
+    		"PrivateDatums": ["P15","P19","P20"],
+    		"Services": ["S6"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st43",
+    		"Description": "Registration or profile information on service connected with the account on Twitter Services and other information that you authorize are deleted from our Services within a few weeks of your disconnecting from our Services your account on the other service",
+    		"Condition": "Condition",
+    		"Period": "Within a few weeks of your disconnecting from our Services",
+    		"PrivateDatums": ["P1","P2"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st44",
+    		"Description": "We may store information about your location to provide features of our Services, such as Tweeting with your location.",
+    		"Condition": "Condition",
+    		"Period": "Forever",
+    		"PrivateDatums": ["P3"],
+    		"Services": ["S7_2"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st45",
+    		"Description": "We may store information about your location to improve and customize the Services.",
+    		"Condition": "Condition",
+    		"Period": "Forever",
+    		"PrivateDatums": ["P3"],
+    		"Services": ["S7_3"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st46",
+    		"Description": "If not already done earlier, for example, as provided below for Widget Data, we will either delete Log Data or remove any common account identifiers, such as your username, full IP address, or email address, after a maximum of 18 months.",
+    		"Condition": "Condition",
+    		"Period": "After a maximum of 18 months.",
+    		"PrivateDatums": ["P5","P19","P21","P22"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st47",
+    		"Description": "After a maximum of 10 days, we start the process of deleting, de-identifying, or aggregating Widget Data, which is usually instantaneous but in some cases may take up to a week.",
+    		"Condition": "Condition",
+    		"Period": "After a maximum of 10 days",
+    		"PrivateDatums": ["P6"],
+    		"Enforcements": ["E4"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st48",
+    		"Description": "Tailored content is stored with only browser cookies or device IDs and is separated from other Widget Data such as page-visit information.",
+    		"Condition": "Condition",
+    		"Period": "Forever",
+    		"PrivateDatums": ["P23"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st49",
+    		"Description": "To facilitate future purchases, we store your Payment Information, excluding CVV code, and shipping address, which you can remove from your account at any time using your account settings.",
+    		"Condition": "Condition",
+    		"Period": "Until user decides to remove this information",
+    		"PrivateDatums": ["P8","P24"],
+    		"Services": ["S2_1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st50",
+    		"Description": "We store information created by your purchases made through our Services (“Transaction Data”).",
+    		"Condition": "Condition",
+    		"Period": "Forever",
+    		"PrivateDatums": ["P10"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st51",
+    		"Description": "Notwithstanding anything to the contrary in this Policy, we may preserve your information if we believe that it is reasonably necessary to comply with a law, regulation, legal process, or governmental request.",
+    		"Condition": "Condition",
+    		"Period": "Forever",
+    		"PrivateDatums": ["P1","P2","P3","P4","P5","P6","P7","P8","P9","P10","P11","P12","P13","P14","P15","P16","P17","P18","P19","P20","P21","P22","P23","P24","P25","P26"],
+    		"Services": ["S5_3"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st52",
+    		"Description": "Notwithstanding anything to the contrary in this Policy, we may preserve your information if we believe that it is reasonably necessary to protect the safety of any person.",
+    		"Condition": "Condition",
+    		"Period": "Forever",
+    		"PrivateDatums": ["P1","P2","P3","P4","P5","P6","P7","P8","P9","P10","P11","P12","P13","P14","P15","P16","P17","P18","P19","P20","P21","P22","P23","P24","P25","P26"],
+    		"Services": ["S4_2"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st53",
+    		"Description": "Notwithstanding anything to the contrary in this Policy, we may preserve your information if we believe that it is reasonably necessary  to address fraud, security or technical issues.",
+    		"Condition": "Condition",
+    		"Period": "Forever",
+    		"PrivateDatums": ["P1","P2","P3","P4","P5","P6","P7","P8","P9","P10","P11","P12","P13","P14","P15","P16","P17","P18","P19","P20","P21","P22","P23","P24","P25","P26"],
+    		"Services": ["S4_1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st54",
+    		"Description": "Notwithstanding anything to the contrary in this Policy, we may preserve your information if we believe that it is reasonably necessary to protect Twitter’s rights or property.",
+    		"Condition": "Condition",
+    		"Period": "Forever",
+    		"PrivateDatums": ["P1","P2","P3","P4","P5","P6","P7","P8","P9","P10","P11","P12","P13","P14","P15","P16","P17","P18","P19","P20","P21","P22","P23","P24","P25","P26"],
+    		"Services": ["S5_2"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st55",
+    		"Description": "Absent a separate arrangement between you and Twitter to extend your deactivation period, after 30 days, we begin the process of deleting your account from our systems, which can take up to a week.",
+    		"Condition": "Condition",
+    		"Period": "after 30 days",
+    		"PrivateDatums": ["P1","P2","P3","P4","P5","P6","P7","P8","P9","P10","P11","P12","P13","P14","P15","P16","P17","P18","P19","P20","P21","P22","P23","P24","P25","P26"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st56",
+    		"Description": "Keep in mind that search engines and other third parties may still retain copies of your public information, like your user profile information and public Tweets, even after you have deleted the information from the Twitter Services or deactivated your account.",
+    		"Condition": "Condition",
+    		"Period": "even after you have deleted the information from the Twitter Services or deactivated your account.",
+    		"PrivateDatums": ["P2","P25"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st57",
+    		"Description": "If we become aware that a child under 13 has provided us with personal information, we take steps to remove such information and terminate the child’s account.",
+    		"Condition": "Condition",
+    		"Period": "Forever",
+    		"PrivateDatums": ["P1","P2","P3","P7","P8","P9","P10","P11","P14","P15","P16","P17","P18","P19","P20","P21","P24","P25","P26"],
+    		"Enforcements": ["E2"],
+    		"Type": "Prohibition"
+    	}
+    ],
+    "Usage": [
+    	{
+    		"ID": "st58",
+    		"Description": "You may use your contact information, such as your email address or phone number, to customize your account or enable Services.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P15"],
+    		"Services": ["S7_3"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st59",
+    		"Description": "We may use your contact information to send you information about our Services.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P15"],
+    		"Services": ["S6"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st60",
+    		"Description": "We may use your contact information to send market to you.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P15"],
+    		"Services": ["S6"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st61",
+    		"Description": "We may use your contact information to help prevent spam, fraud, or abuse.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P15"],
+    		"Services": ["S4_1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st62",
+    		"Description": "We may use your contact information to help others find your account, including through third-party services and client applications.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P15"],
+    		"Services": ["S1_3"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st63",
+    		"Description": "Registration or profile information on service connected with the account on Twitter Services and other information that you authorize help us improve the Services.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P1","P2"],
+    		"Services": ["S7_1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st64",
+    		"Description": "We may use your public information to make inferences, like what topics you may be interested in, and to customize the content we show you, including ads.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P2","P16","P17","P18","P21","P25"],
+    		"Services": ["S3","S7_3"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st65",
+    		"Description": "We may use information about your location to provide features of our Services, such as Tweeting with your location.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P3"],
+    		"Services": ["S7_2"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st66",
+    		"Description": "We may use information about your location to improve and customize the Services.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P3"],
+    		"Services": ["S7_3"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st67",
+    		"Description": "We keep track of how you interact with links across our Services to help improve our Services.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P4"],
+    		"Services": ["S7_1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st68",
+    		"Description": "We keep track of how you interact with links across our Services to provide more relevant advertising.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P4"],
+    		"Services": ["S3"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st69",
+    		"Description": "We keep track of how you interact with links across our Services to be able to share aggregate click statistics such as how many times a particular link was clicked on.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P4"],
+    		"Services": ["S7_1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st70",
+    		"Description": "Twitter uses Log Data to provide, understand, and improve our Services.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P5"],
+    		"Services": ["S7_1"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st71",
+    		"Description": "Twitter uses Log Data to make inferences, like what topics you may be interested in.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P5"],
+    		"Services": ["S7_3"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st72",
+    		"Description": "Twitter uses Log Data to customize the content we show you, including ads.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P5"],
+    		"Services": ["S3","S7_3"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st73",
+    		"Description": "We may use Widget Data to tailor content for you, such as suggestions for people to follow and other content you may be interested in.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P6"],
+    		"Services": ["S7_3"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st74",
+    		"Description": "Twitter uses Registered Card Data to verify eligibility for card-linked services, and may also use Registered Card Data to limit the number of offers available to you and keep track of your offers.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P11"],
+    		"Services": ["S2_2"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st75",
+    		"Description": "We use the information that third-party ad partners may share with us to help us measure and tailor ads.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P13"],
+    		"Services": ["S3"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st76",
+    		"Description": "Information received about you from our corporate affiliates helps us to provide, understand, and improve our Services and our affiliates’ services, including the delivery of ads.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P1","P2","P3","P4","P5","P6","P7","P8","P9","P10","P11","P12","P13","P14","P15","P16","P17","P18","P19","P20","P21","P22","P23","P24","P25","P26"],
+    		"Services": ["S3","S7_3"],
+    		"Type": "Prohibition"
+    	}
+    ],
+    "Informative": [
+    	{
+    		"ID": "st86",
+    		"Description": "Registration or profile information on service connected with the account on Twitter Services and other information that you authorize enable cross-posting.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P1","P2"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st87",
+    		"Description": "Providing the additional information such as profile information to make public on the Twitter Services is entirely optional.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P2"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st91",
+    		"Description": "Your public user profile information and public Tweets are immediately delivered via SMS and our APIs to our partners and other third parties, including search engines, developers, and publishers that integrate Twitter content into their services, and institutions such as universities and public health agencies that analyze the information for trends and insights.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P2","P25"],
+    		"Enforcements": ["E9"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st92",
+    		"Description": "When you share information or content like photos, videos, and links via the Services, you should think carefully about what you are making public.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P17"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st93",
+    		"Description": "You may choose to publish your location in your Tweets and in your Twitter profile.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P3"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st94",
+    		"Description": "You may also tell us your location when you set your trend location on Twitter.com.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P3"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st95",
+    		"Description": "We may also determine location by using other data from your device, such as precise location information from GPS, information about wireless networks or cell towers near your mobile device, or your IP address.",
+    		"Condition": "Condition",
+    		"PrivateDatums": ["P3"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st96",
+    		"Description": "Like many websites, we use cookies and similar technologies to collect additional website usage data and to improve our Services, but we do not require cookies for many parts of our Services such as searching and looking at public user profiles.",
+    		"Condition": "Condition",
+    		"Enforcements": ["E5"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st98",
+    		"Description": "Twitter may use both session cookies and persistent cookies to better understand how you interact with our Services, to monitor aggregate usage by our users and web traffic routing on our Services, and to customize and improve our Services.",
+    		"Condition": "Condition",
+    		"Enforcements": ["E6"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st111",
+    		"Description": "For up to 30 days after deactivation it is still possible to restore your account if it was accidentally or wrongfully deactivated.",
+    		"Condition": "Condition",
+    		"Enforcements": ["E7"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st112",
+    		"Description": "Our Services are not directed to persons under 13.",
+    		"Condition": "Condition",
+    		"Enforcements": ["E3"],
+    		"Type": "Prohibition"
+    	},
+    	{
+    		"ID": "st113",
+    		"Description": "Twitter complies with the U.S.-E.U. and U.S.-Swiss Safe Harbor Privacy Principles of notice, choice, onward transfer, security, data integrity, access, and enforcement.",
+    		"Condition": "Condition",
+    		"Enforcements": ["E8"],
+    		"Type": "Prohibition"
+    	}
+    ],
+     "PrivateDatums": [
+    	{
+    		"ID": "P1",
+    		"Description": "Account",
+    		"Type": "PersonalInformation",
+    		"Attributes": [
+    			{
+    				"name": "Name",
+    				"Description": "name"
+    			},
+    			{
+    				"name": "Username",
+    				"Description": "username"
+    			},
+    			{
+    				"name": "Password",
+    				"Description": "password"
+    			},
+    			{
+    				"name": "Email-Address",
+    				"Description": "email address"
+    			},
+    			{
+    				"name": "Phone-Number",
+    				"Description": "phone number"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "P2",
+    		"Description": "Public-Profile",
+    		"Type": "PersonalInformation",
+    		"Attributes": [
+    			{
+    				"name": "Short-Biography",
+    				"Description": "short biography"
+    			},
+    			{
+    				"name": "Location",
+    				"Description": "location"
+    			},
+    			{
+    				"name": "Website",
+    				"Description": "website"
+    			},
+    			{
+    				"name": "Picture",
+    				"Description": "picture"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "P3",
+    		"Description": "User-Location",
+    		"Type": "PersonalInformation",
+    		"Attributes": [
+    			{
+    				"name": "Location",
+    				"Description": "location"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "P4",
+    		"Description": "User-Interaction",
+    		"Type": "PersonalInformation",
+    		"Attributes": [
+    			{
+    				"name": "Redirection-of-links",
+    				"Description": "redirection of links"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "P5",
+    		"Description": "Log-Data",
+    		"Type": "UsageInformation",
+    		"Attributes": [
+    			{
+    				"name": "IP-address",
+    				"Description": "ip address"
+    			},
+    			{
+    				"name": "Browser-Type",
+    				"Description": "browser type"
+    			},
+    			{
+    				"name": "Operating-System",
+    				"Description": "operating system"
+    			},
+    			{
+    				"name": "Referring-Web-Page",
+    				"Description": "referring web page"
+    			},
+    			{
+    				"name": "Pages-Visited",
+    				"Description": "pages visited"
+    			},
+    			{
+    				"name": "Location",
+    				"Description": "location"
+    			},
+    			{
+    				"name": "Mobile-Carrier",
+    				"Description": "mobile carrier"
+    			},
+    			{
+    				"name": "Device-Information",
+    				"Description": "device information"
+    			},
+    			{
+    				"name": "Search-Terms",
+    				"Description": "search terms"
+    			},
+    			{
+    				"name": "Cookie-Information",
+    				"Description": "cookie information"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "P6",
+    		"Description": "Widget-Data",
+    		"Type": "UsageInformation",
+    		"Attributes": [
+    			{
+    				"name": "Web-Page-Visited",
+    				"Description": "web page visited"
+    			},
+    			{
+    				"name": "Cookie-Browser",
+    				"Description": "cookie that identifies browser"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "P7",
+    		"Description": "Payment-Information",
+    		"Type": "PersonalInformation",
+    		"Attributes": [
+    			{
+    				"name": "Credit-Debit-Card-Number",
+    				"Description": "credit or debit card number"
+    			},
+    			{
+    				"name": "Card-Expiration-Date",
+    				"Description": "card expiration date"
+    			},
+    			{
+    				"name": "CVV-Code",
+    				"Description": "cvv code"
+    			},
+    			{
+    				"name": "Billing-Address",
+    				"Description": "billing address"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "P8",
+    		"Description": "User-Address",
+    		"Type": "PersonalInformation",
+    		"Attributes": [
+    			{
+    				"name": "Shipping-Address",
+    				"Description": "shipping address"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "P9",
+    		"Description": "Payment-Cards-Information",
+    		"Type": "PersonalInformation",
+    		"Attributes": [
+    			{
+    				"name": "Credit-Debit-Card-Number",
+    				"Description": "credit or debit card number"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "P10",
+    		"Description": "Transaction-Data",
+    		"Type": "PersonalInformation",
+    		"Attributes": [
+    			{
+    				"name": "Merchant-Name",
+    				"Description": "merchant name"
+    			},
+    			{
+    				"name": "Date",
+    				"Description": "date"
+    			},
+    			{
+    				"name": "Time",
+    				"Description": "time"
+    			},
+    			{
+    				"name": "Amount",
+    				"Description": "amount of the transaction"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "P11",
+    		"Description": "Registered-Card-Data",
+    		"Type": "PersonalInformation",
+    		"Attributes": [
+    			{
+    				"name": "Merchant-Name",
+    				"Description": "merchant name"
+    			},
+    			{
+    				"name": "Date",
+    				"Description": "date"
+    			},
+    			{
+    				"name": "Time",
+    				"Description": "time"
+    			},
+    			{
+    				"name": "Amount",
+    				"Description": "amount of the transaction"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "P12",
+    		"Description": "Browser-Information",
+    		"Type": "UsageInformation",
+    		"Attributes": [
+    			{
+    				"name": "Cookies",
+    				"Description": "cookies"
+    			},
+    			{
+    				"name": "IP-Address",
+    				"Description": "ip address"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "P13",
+    		"Description": "Advertising-Information",
+    		"Type": "UsageInformation",
+    		"Attributes": [
+    			{
+    				"name": "Browser-Cookie-ID",
+    				"Description": "browser cookie ID"
+    			},
+    			{
+    				"name": "Website-URL-Visited",
+    				"Description": "website URL visited"
+    			},
+    			{
+    				"name": "Mobile-Device-ID",
+    				"Description": "mobile device ID"
+    			},
+    			{
+    				"name": "Hash-Of-Common-Account-ID",
+    				"Description": "cryptographic hash of a common account identifier (such as an email address)"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "P14",
+    		"Description": "User-Naming",
+    		"Type": "PersonalInformation",
+    		"Attributes": [
+    			{
+    				"name": "Name",
+    				"Description": "name"
+    			},
+    			{
+    				"name": "Username",
+    				"Description": "username"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "P15",
+    		"Description": "Contact-Information",
+    		"Type": "PersonalInformation",
+    		"Attributes": [
+    			{
+    				"name": "Email-Address",
+    				"Description": "email address"
+    			},
+    			{
+    				"name": "Phone-Number",
+    				"Description": "phone number"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "P16",
+    		"Description": "User-Public-Information",
+    		"Type": "PersonalInformation",
+    		"Attributes": [
+    			{
+    				"name": "Messages",
+    				"Description": "messages the user Tweets"
+    			},
+    			{
+    				"name": "Metadata",
+    				"Description": "metadata provided with Tweets"
+    			},
+    			{
+    				"name": "Language",
+    				"Description": "language"
+    			},
+    			{
+    				"name": "Country",
+    				"Description": "country"
+    			},
+    			{
+    				"name": "Time-Zone",
+    				"Description": "time zone associated with user account"
+    			},
+    			{
+    				"name": "Lists-User",
+    				"Description": "lists the user creates"
+    			},
+    			{
+    				"name": "People-Followed",
+    				"Description": "people the user follows"
+    			},
+    			{
+    				"name": "Tweets-Favorites-Retweets",
+    				"Description": "Tweets the user marks as favorites or Retweet"
+    			},
+    			{
+    				"name": "Other-Information",
+    				"Description": "other bits of information that result from the use of the Twitter Services"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "P17",
+    		"Description": "User-Shared-Information",
+    		"Type": "PersonalInformation",
+    		"Attributes": [
+    			{
+    				"name": "Direct-Messages",
+    				"Description": "direct messages"
+    			},
+    			{
+    				"name": "Protected-Tweets",
+    				"Description": "protected Tweets"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "P18",
+    		"Description": "User-Name",
+    		"Type": "PersonalInformation",
+    		"Attributes": [
+    			{
+    				"name": "Name",
+    				"Description": "name"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "P19",
+    		"Description": "User-Email",
+    		"Type": "PersonalInformation",
+    		"Attributes": [
+    			{
+    				"name": "Email",
+    				"Description": "email"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "P20",
+    		"Description": "Communication",
+    		"Type": "PersonalInformation",
+    		"Attributes": [
+    			{
+    				"name": "Message",
+    				"Description": "message written by the user"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "P21",
+    		"Description": "Username",
+    		"Type": "PersonalInformation",
+    		"Attributes": [
+    			{
+    				"name": "Username",
+    				"Description": "username"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "P22",
+    		"Description": "IP-Address",
+    		"Type": "UsageInformation",
+    		"Attributes": [
+    			{
+    				"name": "Full-IP-Address",
+    				"Description": "full ip address"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "P23",
+    		"Description": "Tailored-Content",
+    		"Type": "UsageInformation",
+    		"Attributes": [
+    			{
+    				"name": "Browser-Cookies",
+    				"Description": "browser cookies"
+    			},
+    			{
+    				"name": "Device-IDs",
+    				"Description": "device ids"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "P24",
+    		"Description": "Simple-Payment-Information",
+    		"Type": "PersonalInformation",
+    		"Attributes": [
+    			{
+    				"name": "Credit-Debit-Card-Number",
+    				"Description": "credit or debit card number"
+    			},
+    			{
+    				"name": "Card-Expiration-Date",
+    				"Description": "card expiration date"
+    			},
+    			{
+    				"name": "Billing-Address",
+    				"Description": "billing address"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "P25",
+    		"Description": "Public-Tweets",
+    		"Type": "PersonalInformation",
+    		"Attributes": [
+    			{
+    				"name": "Public-Tweets",
+    				"Description": "public Tweets"
+    			}
+    		]
+    	},
+    	{
+    		"ID": "P26",
+    		"Description": "Non-Private-Aggregated-Non-Personal-Information",
+    		"Type": "PersonalInformation",
+    		"Attributes": [
+    			{
+    				"name": "Public-User-Profile-Information",
+    				"Description": "public user profile information"
+    			},
+    			{
+    				"name": "Public-Tweets",
+    				"Description": "public Tweets"
+    			},
+    			{
+    				"name": "People-Followed",
+    				"Description": "people a user follows"
+    			},
+    			{
+    				"name": "People-Following",
+    				"Description": "people that follow a user"
+    			},
+    			{
+    				"name": "Number-Users-Click-Link",
+    				"Description": "number of users who clicked on a particular link"
+    			},
+    			{
+    				"name": "Reports-Advertisers",
+    				"Description": "reports to advertisers about unique users who saw or clicked on their ads after we have removed any private personal information"
+    			}
+    		]
+    	}
+    ],
+     "Recipients": [
+    	{
+    		"ID": "R1",
+    		"Name": "Anyone",
+    		"Description": "Twitter members and non-members",
+    		"Recipient_Parts": ["Members"],
+    		"Type": "Individual/Organization",
+    		"Scope": "Internal/External"
+    		
+    	},
+    	{
+    		"ID": "R1_1",
+    		"Name": "Members",
+    		"Description": "Twitter members",
+    		"Type": "Individual/Organization",
+    		"Scope": "Internal"
+    		
+    	},
+    	{
+    		"ID": "R2",
+    		"Name": "Third-party",
+    		"Description": "Third-parties supporting Twitter",
+    		"Recipient_Parts": ["Payment-Service-Provider","Card-Network"],
+    		"Type": "Organization",
+    		"Scope": "External"
+    		
+    	},
+    	{
+    		"ID": "R2_1",
+    		"Name": "Payment-Service-Provider",
+    		"Description": "Entity responsible for managing payment services",
+    		"Type": "Organization",
+    		"Scope": "External"
+    		
+    	},
+    	{
+    		"ID": "R2_2",
+    		"Name": "Card-Network",
+    		"Description": "Entity responsible for handling credit and debit cards",
+    		"Type": "Organization",
+    		"Scope": "External"
+    		
+    	},
+    	{
+    		"ID": "R3",
+    		"Name": "Service-Provider",
+    		"Description": "Provider of Services that support Twitter",
+    		"Recipient_Parts": ["Payment-Service-Provider","Card-Network"],
+    		"Type": "Organization",
+    		"Scope": "External"
+    		
+    	},
+    	{
+    		"ID": "R3_1",
+    		"Name": "Payment-Service-Provider",
+    		"Description": "Entity responsible for managing payment services",
+    		"Type": "Organization",
+    		"Scope": "External"
+    		
+    	},
+    	{
+    		"ID": "R3_2",
+    		"Name": "Card-Network",
+    		"Description": "Entity responsible for handling credit and debit cards",
+    		"Type": "Organization",
+    		"Scope": "External"
+    		
+    	},
+    	{
+    		"ID": "R4",
+    		"Name": "Seller-Commerce-Provider-Marketplace",
+    		"Description": "Seller, Commerce provider or Marketplace",
+    		"Type": "Organization",
+    		"Scope": "External"
+    		
+    	},
+    	{
+    		"ID": "R5",
+    		"Name": "Corporate-Affiliates",
+    		"Description": "Affiliates of Twitter",
+    		"Type": "Organization",
+    		"Scope": "Internal/External"
+    		
+    	}
+    ],
+    "Services": [
+    	{
+    		"ID": "S1",
+    		"Description": "Account",
+    		"PrivateDatums": ["P1","P2","P5","P15"],
+    		"Service_Parts": ["S1_1","S1_2","S1_3"]
+    	},
+    	{
+    		"ID": "S1_1",
+    		"Description": "sign in and up into our Services",
+    		"PrivateDatums": ["P1","P5"],
+    	},
+    	{
+    		"ID": "S1_2",
+    		"Description": "enrichment of public profile",
+    		"PrivateDatums": ["P2"],
+    	},
+    	{
+    		"ID": "S1_3",
+    		"Description": "interact with our email notifications, click on, view or interact with links, help others find your account",
+    		"PrivateDatums": ["P5","P15"],
+    	},
+    	{
+    		"ID": "S2",
+    		"Description": "Financial",
+    		"PrivateDatums": ["P1","P2","P3","P4","P5","P6","P7","P8","P9","P10","P11","P12","P13","P14","P15","P16","P17","P18","P19","P20","P21","P22","P23","P24","P25","P26"],
+    		"Service_Parts": ["S2_1","S2_2"]
+    	},
+    	{
+    		"ID": "S2_1",
+    		"Description": "purchases, process payments, acceptance of credit or debit cards, order fulfilment, bankruptcy, merger, acquisition, reorganization or sale of assets, facilitate future purchases",
+    		"PrivateDatums": ["P1","P2","P3","P4","P5","P6","P7","P8","P9","P10","P11","P12","P13","P14","P15","P16","P17","P18","P19","P20","P21","P22","P23","P24","P25","P26"],
+    	},
+    	{
+    		"ID": "S2_2",
+    		"Description": "verify eligibility for card-linked services, limit the number of offers available to a given user and keep track of the user offers",
+    		"PrivateDatums": ["P9","P10","P11"],
+    	},
+    	{
+    		"ID": "S3",
+    		"Description": "delivery of ads, measure and tailor ads, customize ads, show relevant ads",
+    		"PrivateDatums": ["P1","P2","P3","P4","P5","P6","P7","P8","P9","P10","P11","P12","P13","P14","P15","P16","P17","P18","P19","P20","P21","P22","P23","P24","P25","P26"],
+    	},
+    	{
+    		"ID": "S4",
+    		"Description": "Security",
+    		"PrivateDatums": ["P1","P2","P3","P4","P5","P6","P7","P8","P9","P10","P11","P12","P13","P14","P15","P16","P17","P18","P19","P20","P21","P22","P23","P24","P25","P26"],
+    		"Service_Parts": ["S4_1","S4_2"]
+    	},
+    	{
+    		"ID": "S4_1",
+    		"Description": "prevent, detect and investigate fraud or other prohibited activities",
+    		"PrivateDatums": ["P1","P2","P3","P4","P5","P6","P7","P8","P9","P10","P11","P12","P13","P14","P15","P16","P17","P18","P19","P20","P21","P22","P23","P24","P25","P26"],
+    	},
+    	{
+    		"ID": "S4_2",
+    		"Description": "protect the safety of any person",
+    		"PrivateDatums": ["P1","P2","P3","P4","P5","P6","P7","P8","P9","P10","P11","P12","P13","P14","P15","P16","P17","P18","P19","P20","P21","P22","P23","P24","P25","P26"],
+    	},
+    	{
+    		"ID": "S5",
+    		"Description": "Legal",
+    		"PrivateDatums": ["P1","P2","P3","P4","P5","P6","P7","P8","P9","P10","P11","P12","P13","P14","P15","P16","P17","P18","P19","P20","P21","P22","P23","P24","P25","P26"],
+    		"Service_Parts": ["S5_1","S5_2","S5_3"]
+    	},
+    	{
+    		"ID": "S5_1",
+    		"Description": "facilitate dispute resolution (including payment and shipping disputes) such as chargebacks or refunds",
+    		"PrivateDatums": ["P7","P8","P10","P18","P19"],
+    	},
+    	{
+    		"ID": "S5_2",
+    		"Description": "protect Twitter's rights or property",
+    		"PrivateDatums": ["P1","P2","P3","P4","P5","P6","P7","P8","P9","P10","P11","P12","P13","P14","P15","P16","P17","P18","P19","P20","P21","P22","P23","P24","P25","P26"],
+    	},
+    	{
+    		"ID": "S5_3",
+    		"Description": "law, regulation, legal process, or governmental request",
+    		"PrivateDatums": ["P1","P2","P3","P4","P5","P6","P7","P8","P9","P10","P11","P12","P13","P14","P15","P16","P17","P18","P19","P20","P21","P22","P23","P24","P25","P26"],
+    	},
+    	{
+    		"ID": "S6",
+    		"Description": "Communication",
+    		"PrivateDatums": ["P15","P19","P20"],
+    	},
+    	{
+    		"ID": "S7",
+    		"Description": "Development",
+    		"PrivateDatums": ["P1","P2","P3","P4","P5","P6","P7","P8","P9","P10","P11","P12","P13","P14","P15","P16","P17","P18","P19","P20","P21","P22","P23","P24","P25","P26"],
+    		"Service_Parts": ["S7_1","S7_2","S7_3"]
+    	},
+    	{
+    		"ID": "S7_1",
+    		"Description": "help provide, understand, and improve our Services",
+    		"PrivateDatums": ["P1","P2","P3","P4","P5","P6","P7","P8","P9","P10","P11","P12","P13","P14","P15","P16","P17","P18","P19","P20","P21","P22","P23","P24","P25","P26"],
+    	},
+    	{
+    		"ID": "S7_2",
+    		"Description": "provide features of our Services",
+    		"PrivateDatums": ["P3"],
+    	},
+    	{
+    		"ID": "S7_3",
+    		"Description": "customize the Services, customize content",
+    		"PrivateDatums": ["P2","P3","P5","P15","P16","P17","P18","P21","P25"],
+    	}
+    ],
+    "Enforcements": [
+    	{
+    		"ID": "E1",
+    		"Name": "Collection-Children-Personal-Information",
+    		"Description": "Twitter does not collect personal information from children under 13, except when such information is not accurate",
+    		"Type": "Action"
+    	},
+    	{
+    		"ID": "E2",
+    		"Name": "Children-Account-Personal-Information-Removal",
+    		"Description": "As soon as Twitter confirms that a child is under 13, his/her account is terminated and their information removed",
+    		"Type": "Action"
+    	},
+    	{
+    		"ID": "E3",
+    		"Name": "Children-Recommendation",
+    		"Description": "Children under 13 should not use Twitter",
+    		"Type": "Action"
+    	},
+    	{
+    		"ID": "E4",
+    		"Name": "Widget-Data-Removal-Process",
+    		"Description": "Widget data removal may take up to a week and starts after a maximum of 10 days after a user terminates an account",
+    		"Type": "Action"
+    	},
+    	{
+    		"ID": "E5",
+    		"Name": "Cookies-Similar-Technologies",
+    		"Description": "Twitter uses cookies and similar technologies to collect some usage data but various Services do not require these technologies",
+    		"Type": "Tool"
+    	},
+    	{
+    		"ID": "E6",
+    		"Name": "Session-Persistent-Cookies",
+    		"Description": "Twitter uses both types of cookies to understand user interaction and web traffic, thus improving and customizing its Services",
+    		"Type": "Tool"
+    	},
+    	{
+    		"ID": "E7",
+    		"Name": "Account-Deactivation",
+    		"Description": "It is possible to restore a deactived account on the first 30 days",
+    		"Type": "Action"
+    	},
+    	{
+    		"ID": "E8",
+    		"Name": "Twitter-Compliance",
+    		"Description": "Twitter complies with US-EU principles for handling users data",
+    		"Type": "Action"
+    	},
+    	{
+    		"ID": "E9",
+    		"Name": "User-Information-Delivery-Third-Parties",
+    		"Description": "Users' public information is automatically shared to associated partners via SMS and APIs",
+    		"Type": "Tool"
+    	}
+    ]
+}

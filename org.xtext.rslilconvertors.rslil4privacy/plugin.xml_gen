@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<plugin>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "http://www.xtext.org/rslilconvertors/rslil4privacy/Rslil4privacy" 
+       class = "org.xtext.rslilconvertors.rslil4privacy.rslil4privacy.Rslil4privacyPackage"
+       genModel = "model/generated/Rslil4privacy.genmodel" /> 
+	
+  </extension>
+
+
+
+</plugin>

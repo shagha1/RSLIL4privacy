@@ -1,0 +1,75 @@
+Package Facebook_v7.Privatedata.RSLingo4Privacy {
+
+PrivateData PD1 {
+	Description "Facebook Account",
+	Type PersonalInformation,
+	Attribute "First name" Description "First name",
+	Attribute "Surname" Description "Surname",
+	Attribute "Email" Description "Email",
+	Attribute "Mobile number" Description "Mobile number",
+	Attribute "Password" Description "Password",
+	Attribute "Date of birth" Description "Date of birth",
+	Attribute "Gender" Description "Gender"
+};
+
+PrivateData PD2 {
+	Description "Payment Information",
+	Type PersonalInformation,
+	Attribute "Credit or debit card number" Description "Credit or debit card number",
+	Attribute "Other card information" Description "Other card information",
+	Attribute "Account and authentication information" Description "Account and authentication information",
+	Attribute "Billing, shipping and contact details" Description "Billing, shipping and contact details"
+};
+
+PrivateData PD3 {
+	Description "Friends and Contacts",
+	Type PersonalInformation,
+	Attribute "Name" Description "Name",
+	Attribute "Email" Description "Email",
+	Attribute "Other contact information" Description "Other contact information"
+};
+
+PrivateData PD4 {
+	Description "Public Activity or Profile",
+	Type UsageInformation,
+	Attribute "Posts" Description "Posts",
+	Attribute "Photos" Description "Photos",
+	Attribute "Status updates" Description "Status updates",
+	Attribute "Public profile" Description "Public profile"
+};
+
+PrivateData PD5 {
+	Description "Device Specifications",
+	Type UsageInformation,
+	Attribute "Operating system" Description "Operating system",
+	Attribute "Hardware version" Description "Hardware version",
+	Attribute "Device settings" Description "Device settings",
+	Attribute "File and software names and types" Description "File and software names and types",
+	Attribute "Battery and signal strength" Description "Battery and signal strength",
+	Attribute "Device identifiers" Description "Device identifiers"
+};
+
+PrivateData PD6 {
+	Description "Device Locations",
+	Type UsageInformation,
+	Attribute "Specific geographic locations
+(through GPS, Bluetooth, or WiFi signals)" Description "Specific geographic locations
+(through GPS, Bluetooth, or WiFi signals)"
+};
+
+PrivateData PD7 {
+	Description "Connection Information",
+	Type UsageInformation,
+	Attribute "Name of your mobile operator or ISP" Description "Name of your mobile operator or ISP",
+	Attribute "Browser type" Description "Browser type",
+	Attribute "Language and time zone" Description "Language and time zone",
+	Attribute "Mobile phone number" Description "Mobile phone number",
+	Attribute "IP address" Description "IP address"
+};
+
+PrivateData PD8 {
+	Description "Third-parties Activity",
+	Type UsageInformation,
+	Attribute "Information gathered while visiting third-party websites and apps" Description "Information gathered while visiting third-party websites and apps"
+};
+};

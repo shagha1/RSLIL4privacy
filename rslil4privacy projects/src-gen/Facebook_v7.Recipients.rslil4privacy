@@ -1,0 +1,84 @@
+Package Facebook_v7.Recipients.RSLingo4Privacy {
+
+Recipient R1 {
+	Name "Facebook services owner",
+	Description "Facebook services owner",
+	Scope Internal,
+	Type Organization
+};
+
+Recipient R2 {
+	Name "Facebook family companies",
+	Description "Facebook family companies",
+	Recipient_Part R1,
+	Scope Internal,
+	Type Organization
+};
+
+Recipient R3 {
+	Name "Business Supporter Partner",
+	Description "Business Supporter Partner",
+	Scope External,
+	Type Organization
+};
+
+Recipient R4 {
+	Name "Advertising, measurement or analytics partners",
+	Description "Advertising, measurement or analytics partners",
+	Recipient_Part R3,
+	Scope External,
+	Type Organization
+};
+
+Recipient R5 {
+	Name "Vendors, service providers",
+	Description "Vendors, service providers",
+	Recipient_Part R3,
+	Scope External,
+	Type Organization
+};
+
+Recipient R6 {
+	Name "Third parties",
+	Description "Third parties",
+	Scope External,
+	Type Organization
+};
+
+Recipient R7 {
+	Name "Advertising, measurement or analytics partners",
+	Description "Advertising, measurement or analytics partners",
+	Recipient_Part R6,
+	Scope External,
+	Type Organization
+};
+
+Recipient R8 {
+	Name "Vendors, service providers",
+	Description "Vendors, service providers",
+	Recipient_Part R6,
+	Scope External,
+	Type Organization
+};
+
+Recipient R9 {
+	Name "People you share and communicate with",
+	Description "People you share and communicate with",
+	Scope Internal,
+	Type Individual
+};
+
+Recipient R10 {
+	Name "People on Facebook Services",
+	Description "People on Facebook Services",
+	Scope Internal,
+	Type Individual
+};
+
+Recipient R11 {
+	Name "People on and off Facebook Services",
+	Description "People on and off Facebook Services",
+	Scope Internal,
+	Type Individual
+};
+};
